@@ -158,4 +158,37 @@ address li {
     margin-top: 10px;
 }
 
- 
+/* Dropdown compétences - A travailler */
+
+.dropbtn {
+  position: relative;
+}
+.dropdown-content {
+  position: absolute;
+  display: none;
+  float: left;
+  min-height: 50px;
+  background: #F2E9E4;
+  z-index: 5;
+}
+.dropdown-content p {
+  color: #00A8E8;
+  font-weight: 600;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  overflow: auto;
+}
+
+/* Animations  */
+
+@keyframes title-zoom-in {
+  from {font-size: 30px;}
+  to {font-size: 40px;}
+}
+
+.sec-1__header li:hover a {
+  animation-name: title-zoom-in;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
