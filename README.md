@@ -12,3 +12,5 @@ Repo du site de l'agence.
 - [ ] Les oiseaux (slider)
 - [ ] Accessibilité
 - [ ] Debug
+- [ ] Favicon
+- [ ] Déploiement

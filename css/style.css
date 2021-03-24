@@ -176,19 +176,19 @@ address li {
   font-weight: 600;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Animations  */
 
 @keyframes title-zoom-in {
   from {font-size: 30px;}
-  to {font-size: 40px;}
+  to {font-size: 35px;}
 }
 
 .sec-1__header li:hover a {
   animation-name: title-zoom-in;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: ease;
 }
