@@ -246,6 +246,7 @@ address li {
   .sec-1__header a.icon {
       display: block;
       padding: 20px 20px;
+      color: #003459;
   }
 
   .sec-2__header { justify-content: flex-start; }
@@ -282,7 +283,8 @@ address li {
   }
   .navbar.responsive nav {
       float: none;
-      width: 100vh;
+      width: 100vw;
+      height: 30%;
   }
 
   .navbar.responsive .dropdown-content {
