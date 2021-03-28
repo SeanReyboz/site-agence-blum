@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="http://fonts.cdnfonts.com/css/cocogoose-classic-trial" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <section class="sec-1">
@@ -17,13 +18,21 @@
                 <div class="logo">
                     <img src="../img/logo-blum-header.svg" alt="">
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">AGENCE</a></li>
-                        <li><a href="#">REALISATIONS</a></li>
-                        <li><a href="#">OISEAUX</a></li>
-                    </ul>
-                </nav>
+                <div class="titre">
+                    <h1>BLUM</h1>
+                </div>
+                <div class="navbar" id="TopNav">
+                    <nav>
+                        <a href="javascript:void(0);" class="icon" onclick="MenuResponsive()">&#9776;</a>
+                        <!-- <div class="dropdown-content"> -->
+                            <ul class="dropdown-content">
+                                <li><a href="#">AGENCE</a></li>
+                                <li><a href="#">REALISATIONS</a></li>
+                                <li><a href="#">OISEAUX</a></li>
+                            </ul>
+                        <!-- </div> -->
+                    </nav>
+                </div>
                 <div class="scroll-button">
                     <a href="#agence"><img src="../img/scroll-button.svg" alt=""></a>
                 </div>
@@ -47,7 +56,6 @@
                     <a href="#compétences"><img src="../img/scroll-button.svg" alt=""></a>
                 </div>
             </main>
-
         </div>
     </section>
     <section class="sec-3" id="compétences">
@@ -57,43 +65,35 @@
             </header>
             <main class="sec-3__main">
                 <ul>
-                  <div class="dropdown">
                     <li class="dropbtn"><img src="../img/graph-icon.png" alt=""></li>
-                    <div class="dropdown-content">
-                      <p>Paragraphe graph ici</p>
-                    </div>
-                  </div>
-                  <div class="dropdown">
                     <li class="dropbtn"><img src="../img/audio-icon.png" alt=""></li>
-                    <div class="dropdown-content">
-                      <p>Paragraphe AV ici</p>
-                    </div>
-                  </div>
-                  <div class="dropdown">
                     <li class="dropbtn"><img src="../img/com-icon.png" alt=""></li>
-                    <div class="dropdown-content">
-                      <p>Paragraphe Com ici</p>
-                    </div>
-                  </div>
-                  <div class="dropdown">
                     <li class="dropbtn"><img src="../img/prog-icon.png" alt=""></li>
-                    <div class="dropdown-content">
-                      <p>Paragraphe Prog ici</p>
-                    </div>
-                  </div>
                 </ul>
                 <ul>
                     <li>GRAPHISME</li>
+                    <div class="dropdown-content">
+                        <p>Illustrations / Affiches / Webdesign</p>
+                    </div>
                     <li>AUDIOVISUEL</li>
+                    <div class="dropdown-content">
+                        <p>Réalisation vidéo / Son / Motion Design</p>
+                    </div>
                     <li>COMMUNICATION</li>
+                    <div class="dropdown-content">
+                        <p>Réseaux sociaux / Communication orale et écrite</p>
+                    </div>
                     <li>PROGRAMMATION</li>
+                    <div class="dropdown-content">
+                        <p>Développement Web / Programmation</p>
+                    </div>
                 </ul>
                 <ul>
                     <!-- à animer -->
-                    <li><img src="../img/plus-button.png" alt="">blalbla</li>
-                    <li><img src="../img/plus-button.png" alt="">blalbla</li>
-                    <li><img src="../img/plus-button.png" alt="">balbla</li>
-                    <li><img src="../img/plus-button.png" alt="">blalba</li>
+                    <li><img src="../img/plus-button.png" alt=""></li>
+                    <li><img src="../img/plus-button.png" alt=""></li>
+                    <li><img src="../img/plus-button.png" alt=""></li>
+                    <li><img src="../img/plus-button.png" alt=""></li>
                 </ul>
             </main>
         </div>
@@ -101,18 +101,27 @@
     <footer>
         <div class="logo-univ">
             <ul>
-                <li><img src="../img/logo-mii.png" alt=""></li>
-                <li><img src="../img/logo-iut.png" alt=""></li>
+                <li> <a href="https://mmi.univ-smb.fr/site" target="_blank"> <img src="../img/logo-mii.png" alt=""> </a> </li>
+                <li> <a href="https://www.iut-chy.univ-smb.fr" target="_blank"> <img src="../img/logo-iut.png" alt=""> </a> </li>
             </ul>
         </div>
         <address>
-
             <ul>
-                <li><img src="../img/position-icon.png" alt=""></li>
-                <li><img src="../img/email-icon.png" alt=""></li>
-                <li><img src="../img/insta-icon.png" alt=""></li>
+                <li> <a href="https://www.google.fr/maps/place/IUT+de+Chamb%C3%A9ry/@45.641862,5.8666498,15.25z/data=!4m5!3m4!1s0x478b09cbb2276115:0x3d15d003b27c5cce!8m2!3d45.6424655!4d5.8710927" target="_blank"> <img src="../img/position-icon.png" alt=""> </a> </li>
+                <li> <a href="mailto:mmi.blum@gmail.com"> <img src="../img/email-icon.png" alt=""> </a> </li>
+                <li> <a href="https://www.instagram.com/blum_agence" target="_blank"> <img src="../img/insta-icon.png" alt=""> </a> </li>
             </ul>
         </address>
     </footer>
+    <script>
+        function MenuResponsive() {
+            var x = document.getElementById("TopNav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 </body>
 </html>
