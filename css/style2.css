@@ -2,7 +2,7 @@
 
 body,html{
     max-width: 480px;
-    height: 100%;
+    height: auto;
 }
 
 header #menu {
@@ -95,7 +95,12 @@ width: 100%;
     width: 500px;
 }
 
-
+#iut img{
+    height: 2em;
+}
+footer img{
+    height: 1.5em;
+}
 
 
 
@@ -277,19 +282,52 @@ margin-right: auto;
 }
 
 footer {
-    background: #F2E9E4;
+    color: #003459;
+    font-weight: bold;
+    background: green;
     padding-top: 4%;
-    padding-left: 10%;
-    padding-right: 10%;
+margin-left: auto;
+margin-right: auto;
     padding-bottom: 2%;
     display: flex;
 }
 
 footer ul {
     list-style: none;
+    display:block;
+    margin-top: 10%;
 }
 
 footer li {
-    padding-left: 1%;
-    padding-right: 10%;
+    display: inline;
+    margin-top: 5%;
+}
+
+#contact{
+        text-align: center;
+    margin-left: auto;
+}
+#reseaux{
+    text-align: center;
+   margin-left: auto;
+margin-right: auto;
+}
+#iut{
+        text-align: center;
+    margin-right: auto;
+}
+footer li a {
+    color: #003459;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+footer h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer img {
+    margin-right: 5%
 }
