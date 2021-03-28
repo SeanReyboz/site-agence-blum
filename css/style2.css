@@ -16,8 +16,6 @@ header{
 header #menu-tel {
 
 display: flex;
-
-
 }
 ul{
     list-style-type: none;
@@ -70,7 +68,31 @@ margin-top: auto;
 margin-bottom: auto;
 }
 #grostitre{
-    display: none;  
+background-color: #007EA7; 
+}
+
+
+ #groupe {
+}
+margin-left: auto;
+margin-right: auto; 
+font-size: 16px;
+height:auto;
+width: 100%;
+}
+.nomgroupe {
+margin-left: -5%;
+}
+
+.boutonflecheD {
+margin-left: -5%;
+}
+
+.nom a {
+width: 100%;
+}
+#personne{
+    width: 500px;
 }
 
 
@@ -81,7 +103,32 @@ margin-bottom: auto;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
 }
+
+
+
+
+
+
+
+
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -91,6 +138,7 @@ margin-bottom: auto;
 body {
     font-family: 'Cocogoose Classic Trial', sans-serif;
     scroll-behavior: smooth;
+    margin: 0px;
 }
 
 #sec-1 {
@@ -131,12 +179,16 @@ header a {
 #grostitre {
     padding-top: 2%;
     padding-bottom: 0%;
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 
 #grostitre h1 {
     text-transform: uppercase;
     color: #003459;
     font-size: 6vw;
+        margin-bottom: 0px;
 }
 
 #sec-2 {
@@ -154,6 +206,8 @@ header a {
     padding-bottom: 3%;
     display: flex;
     text-align: center;
+margin-left: auto;
+margin-right: auto;
 }
 
 .nomgroupe {
@@ -172,20 +226,39 @@ header a {
     padding-top: 3%;
     padding-bottom: 3%;
 }
+#membre{
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.boutonfleche {
+.boutonflecheG {
+    margin-left: auto;
     vertical-align: center;
 }
+.boutonflecheD {
+    vertical-align: center;
+    transform: scaleX(-1);
+    margin-right: auto;
+}
 
-#personne, #oeuvre {
+#oeuvre {
     padding-left: 10%;
     padding-right: 10%;
 }
-
-.nom {
-    padding-top: 3%;
+#photo-membre{
     padding-left: 10%;
     padding-right: 10%;
+}
+.boutonfleche-membreG{
+    margin-left: auto;
+}
+.boutonfleche-membreD{
+margin-right: auto;
+}
+.nom {
+    padding-top: 3%;
+margin-left: auto;
+margin-right: auto;
     padding-bottom: 3%;
     text-align: center;
 }
@@ -194,15 +267,13 @@ header a {
     text-transform: uppercase;
     font-size: 1.3em;
     color: #003459;
-    background-color: #b6b3b2;
-    padding: 8px 30px;
     border-radius: 20px;
 }
 
 .description {
-    padding-left: 5%;
-    padding-right: 5%;
     text-align: center;
+    color: #F2E9E4;
+    font-weight: bold;
 }
 
 footer {
