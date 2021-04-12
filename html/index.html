@@ -21,9 +21,11 @@
                 <div class="titre">
                     <h1>BLUM</h1>
                 </div>
+                <div class="burger">
+                    <a href="javascript:void(0);" class="icon" onclick="MenuResponsive()">&#9776;</a>
+                </div>
                 <div class="navbar" id="TopNav">
                     <nav>
-                        <a href="javascript:void(0);" class="icon" onclick="MenuResponsive()">&#9776;</a>
                         <!-- <div class="dropdown-content"> -->
                             <ul class="dropdown-content">
                                 <li><a href="#">AGENCE</a></li>
@@ -114,12 +116,15 @@
         </address>
     </footer>
     <script>
+    /*
+        Script menu responsive. Permet d'ajouter la classe `responsive` a l'element d'id `TopNav`
+    */
         function MenuResponsive() {
-            var x = document.getElementById("TopNav");
-            if (x.className === "navbar") {
-                x.className += " responsive";
+            var menuDeroulant = document.getElementById("TopNav");
+            if (menuDeroulant.className === "navbar") {
+                menuDeroulant.className += " responsive";
             } else {
-                x.className = "navbar";
+                menuDeroulant.className = "navbar";
             }
         }
     </script>

@@ -1,7 +1,8 @@
-body {
-    font-family: 'Cocogoose Classic Trial', sans-serif;
-    scroll-behavior: smooth;
-}
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body { font-family: 'Cocogoose Classic Trial', sans-serif; }
 
 .sec-1 {
     height: 775px;
@@ -219,7 +220,7 @@ address li {
 
   .sec-1__header {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .sec-1__header .titre {
@@ -231,6 +232,7 @@ address li {
     font-size: 3rem;
     color: #007EA7;
     opacity: 1;
+    line-height: 60px;
     text-align: center;
   }
 
@@ -245,7 +247,8 @@ address li {
 
   .sec-1__header a.icon {
       display: block;
-      padding: 20px 20px;
+      font-size: 32px;
+      padding-left: 16px;
       color: #003459;
   }
 
