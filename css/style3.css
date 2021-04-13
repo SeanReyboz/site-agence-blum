@@ -5,7 +5,6 @@ html { scroll-behavior: smooth; }
 body { font-family: 'Cocogoose Classic Trial', sans-serif; }
 
 .sec-1 {
-    height: 775px;
     background: #F2E9E4;
 }
 
@@ -16,13 +15,13 @@ body { font-family: 'Cocogoose Classic Trial', sans-serif; }
     height: auto;
 }
 
-.sec-1__header {
+.sec-1_header-pages {
     display: flex;
     flex-flow: wrap column;
     align-items: center;
 }
 
-.sec-1__header .logo {
+.sec-1_header-pages .logo {
     margin: 0 0 150px 0;
 }
 
@@ -30,7 +29,7 @@ body { font-family: 'Cocogoose Classic Trial', sans-serif; }
     margin: 0 0 150px;
 }
 
-.sec-1__header a.icon {
+.sec-1_header-pages a.icon {
     display: none;
 }
 
@@ -198,7 +197,9 @@ address li img {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.navbar  ul {
+  align-items: center;
+}
 /* Animations  */
 
 @keyframes title-zoom-in {
@@ -206,12 +207,12 @@ address li img {
   to { font-size: 35px; }
 }
 
-.sec-1__header li:hover a {
+.sec-1_header-pages li:hover a {
   animation-name: title-zoom-in;
   animation-duration: 1s;
   animation-timing-function: ease;
 }
-.sec-1__header li:hover a {
+.sec-1_header-pages li:hover a {
   animation-name: title-zoom-in;
   animation-duration: 1s;
   animation-timing-function: ease;
@@ -219,6 +220,9 @@ address li img {
 
 @media screen and (max-width: 915px) {
 
+.logo {
+    display: flex;
+}
   h1 { font-size: 2rem; }
 
   .container,
@@ -233,12 +237,18 @@ address li img {
   .scroll-button,
   .sec-3__main ul:last-child { display: none; }
 
-  .sec-1__header {
+  .navbar img {
+    display: none;
+  }
+  .navbar ul{
+    align-items: none;
+  }
+  .sec-1_header-pages {
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .sec-1__header .titre {
+  .sec-1_header-pages .titre {
       flex-grow: 1;
       display: block;
   }
@@ -251,16 +261,16 @@ address li img {
     text-align: center;
   }
 
-  .sec-1__header .logo,
+  .sec-1_header-pages .logo,
   .sec-1 nav,
   .sec-1 li,
   .sec-2__header h1,
   .sec-3__header h1,
   .sec-3__main { margin: 0 0; }
 
-  .sec-1__header .logo img { width: 5rem; }
+  .sec-1_header-pages .logo img { width: 5rem; }
 
-  .sec-1__header a.icon {
+  .sec-1_header-pages a.icon {
       display: block;
       font-size: 32px;
       padding-left: 16px;
