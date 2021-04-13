@@ -6,13 +6,14 @@
         <title>Site Agence Blum - nos membres</title>
         <link rel="stylesheet" href="../libs/reset.css">
         <link rel="stylesheet" href="../css/style2.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
     </head>
     <body>
 
         <section id="sec-1">
             <header>
                 <div id="menu-tel">
-                    <div id="menu-bg">
+                    <div id="menu-bg" onclick="MenuResponsive()">
                         <ul>
                             <li id="rectangle1">
                                 <li id="rectangle2">
@@ -21,6 +22,17 @@
                                 </li>
                             </li>
                         </ul>
+                        <div class="navbar" id="TopNav">
+                    <nav>
+                        <!-- <div class="dropdown-content"> -->
+                            <ul class="dropdown-content">
+                                <li><a href="index.html">AGENCE</a></li>
+                                <li><a href="page2.html">REALISATIONS</a></li>
+                                <li><a href="page3.html">OISEAUX</a></li>
+                            </ul>
+                        <!-- </div> -->
+                    </nav>
+                </div>
                     </div>
                     <h1 id="nomagence">BLUM</h1>
                     <img src="../img/logo-blum-header.svg" id="logo-blum-header">
@@ -94,33 +106,30 @@
         </section>
 
         <footer>
+        <div class="logo-univ">
+            <ul>
+                <li> <a href="https://mmi.univ-smb.fr/site" target="_blank"> <img src="../img/logo-mii.png" alt=""> </a> </li>
+                <li> <a href="https://www.iut-chy.univ-smb.fr" target="_blank"> <img src="../img/logo-iut.png" alt=""> </a> </li>
+            </ul>
+        </div>
+        <address>
+            <ul>
+                <li> <a href="https://www.google.fr/maps/place/IUT+de+Chamb%C3%A9ry/@45.641862,5.8666498,15.25z/data=!4m5!3m4!1s0x478b09cbb2276115:0x3d15d003b27c5cce!8m2!3d45.6424655!4d5.8710927" target="_blank"> <img src="../img/position-icon.png" alt=""> </a> </li>
+                <li> <a href="mailto:mmi.blum@gmail.com"> <img src="../img/email-icon.png" alt=""> </a> </li>
+                <li> <a href="https://www.instagram.com/blum_agence" target="_blank"> <img src="../img/insta-icon.png" alt=""> </a> </li>
+            </ul>
+        </address>
+    </footer>
+        <script type="text/javascript">
+            function MenuResponsive() {
+            var menuDeroulant = document.getElementById("TopNav");
+            if (menuDeroulant.className === "navbar") {
+                menuDeroulant.className += " responsive";
+            } else {
+                menuDeroulant.className = "navbar";
+            }
+        }
 
-            <div class="foot" id="contact">
-                <h1>contact</h1>
-                <ul>
-                    <li><img src="../img/position-icon.png" alt="icon position">
-                    <a>28 avenue du Lac d’Annecy</br>73376 Le Bourget du Lac</br></a></li>
-                    <li><img src="../img/email-icon.png" alt="icon Email">mmi.blum@gmail.com</li>
-                </ul>
-
-            </div>
-
-            <div class="foot" id="reseaux">
-                <h1>Réseaux</h1>
-                <ul><li><img src="../img/insta-icon.png" href="https://www.instagram.com/blum_agence/" alt="icon Instagram">
-                    <a href="https://www.instagram.com/blum_agence/">@blum_agence</a></li>
-                </ul>
-            </div>
-
-            <div class="foot" id="iut">
-                <h1>IUT</h1>
-                <ul>
-                    <li><img src="../img/logo-mii.png" href="https://www.iut-chy.univ-smb.fr/formations/nos-departements/mmi-metiers-du-multimedia-et-de-linternet/" alt="logo mmi"></li>
-                    <li><img src="../img/logo-iut.png" href="https://www.iut-chy.univ-smb.fr" alt="logo de l'iut"></li>
-                </ul>
-            </div>
-
-        </footer>
-
+        </script>
     </body>
 </html>

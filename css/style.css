@@ -135,7 +135,7 @@ p {
 }
 
 footer {
-    height: 228px;
+    max-height: 228px;
     background: #007EA7;
 }
 
@@ -145,14 +145,18 @@ footer {
     align-items: center;
 }
 
+address {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 address ul {
     display: flex;
-    flex-flow: wrap column;
     align-items: center;
 }
 
-address li {
-    margin: 10px 0;
+address ul li {
+    margin: 0 30px;
+    display: inline;
 }
 
 .logo-univ ul {
