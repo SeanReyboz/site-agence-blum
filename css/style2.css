@@ -319,3 +319,11 @@ footer h1{
 footer img {
     margin-right: 5%
 }
+
+#photo-membre {
+
+    height: 7.5%;
+    width: 75%;
+}
+.boutonfleche-membreG, .boutonfleche-membreD{
+}
