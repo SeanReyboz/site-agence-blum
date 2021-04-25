@@ -74,15 +74,15 @@
                 </ul>
                 <ul>
                     <li>GRAPHISME</li>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" >
                         <p>Illustrations / Affiches / Webdesign</p>
                     </div>
                     <li>AUDIOVISUEL</li>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" >
                         <p>Réalisation vidéo / Son / Motion Design</p>
                     </div>
                     <li>COMMUNICATION</li>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" >
                         <p>Réseaux sociaux / Communication orale et écrite</p>
                     </div>
                     <li>PROGRAMMATION</li>
@@ -92,10 +92,26 @@
                 </ul>
                 <ul>
                     <!-- à animer -->
-                    <li><img src="../img/plus-button.png" alt=""></li>
-                    <li><img src="../img/plus-button.png" alt=""></li>
-                    <li><img src="../img/plus-button.png" alt=""></li>
-                    <li><img src="../img/plus-button.png" alt=""></li>
+                    <li><img src="../img/plus-button.png" id="plus-button-graph" alt="" onmouseover="derouler_graph()">
+                        <div id="content-graph">
+                            <p>Illustrations / Affiches / Webdesign</p>
+                        </div>
+                    </li>
+                    <li><img src="../img/plus-button.png" id="plus-button-av" alt="" onmouseover="derouler_av()">
+                        <div id="content-AV">
+                            <p>Réalisation vidéo / Son / Motion Design</p>
+                        </div>
+                    </li>
+                    <li><img src="../img/plus-button.png" id="plus-button-com" alt="" onmouseover="derouler_com()">
+                        <div id="content-com">
+                            <p>Réseaux sociaux / Communication orale et écrite</p>
+                        </div>
+                    </li>
+                    <li><img src="../img/plus-button.png" id="plus-button-prog" alt="" onmouseover="derouler_prog()">
+                        <div id="content-prog">
+                            <p>Développement Web / Programmation</p>
+                        </div>
+                    </li>
                 </ul>
             </main>
         </div>
@@ -127,6 +143,37 @@
                 menuDeroulant.className = "navbar";
             }
         }
+
+        function derouler_graph() {
+                
+            document.getElementById("content-graph").style.display="inline-block";
+        
+        document.getElementById("plus-button-graph").style.cursor="pointer";
+        document.getElementById("plus-button-graph").style.display="none";
+        }
+        function derouler_av() {
+                
+            document.getElementById("content-AV").style.display="inline-block";
+        
+        document.getElementById("plus-button-av").style.cursor="pointer";
+        document.getElementById("plus-button-av").style.display="none";
+        }
+        function derouler_com() {
+                
+            document.getElementById("content-com").style.display="inline-block";
+        
+        document.getElementById("plus-button-com").style.cursor="pointer";
+        document.getElementById("plus-button-com").style.display="none";
+        }
+        function derouler_prog() {
+                
+            document.getElementById("content-prog").style.display="inline-block";
+        
+        document.getElementById("plus-button-prog").style.cursor="pointer";
+        document.getElementById("plus-button-prog").style.display="none";
+        }
+
+
     </script>
 </body>
 </html>

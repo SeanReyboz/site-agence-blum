@@ -4,6 +4,8 @@ html { scroll-behavior: smooth; }
 
 body { font-family: 'Cocogoose Classic Trial', sans-serif; }
 
+
+
 .sec-1 {
     height: 775px;
     background: #F2E9E4;
@@ -198,6 +200,38 @@ address li img {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+  #content-graph {
+   display: none;
+   color: #003459;  
+ }
+#content-AV {
+  display: none;
+  color: #003459;
+}
+#content-com {
+  display: none;
+  color: #003459;
+}
+#content-prog {
+  display: none;
+  color: #003459;
+}
+#content-graph p {
+   color: #003459; 
+       font-weight: 600; 
+ }
+#content-AV  p{
+  color: #003459;
+      font-weight: 600;
+}
+#content-com  p{
+  color: #003459;
+      font-weight: 600;
+}
+#content-prog  p{
+  color: #003459;
+      font-weight: 600;
+}
 
 /* Animations  */
 
@@ -218,6 +252,23 @@ address li img {
 }
 
 @media screen and (max-width: 915px) {
+
+  #content-graph {
+    visibility: visible;
+    cursor: default;
+  }
+#content-AV {
+  visibility: visible;
+  cursor: default;
+}
+#content-com {
+  visibility: visible;
+  cursor: default;
+}
+#content-prog {
+  visibility: visible;
+  cursor: default;
+}
 
   h1 { font-size: 2rem; }
 
@@ -331,3 +382,6 @@ address li img {
   .logo-univ li { margin: 5px 10px ; }
 
 }
+
+
+

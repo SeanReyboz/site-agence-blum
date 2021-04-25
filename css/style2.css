@@ -186,6 +186,7 @@ header a {
 }
 
 #sec-2 {
+    max-height: 1496px;
     background: #007EA7;
     padding-top: 3%;
     padding-left: 15%;
@@ -240,8 +241,6 @@ margin-right: auto;
     padding-right: 10%;
 }
 #photo-membre{
-    padding-left: 10%;
-    padding-right: 10%;
 }
 .boutonfleche-membreG{
     margin-left: auto;
@@ -322,8 +321,15 @@ footer img {
 
 #photo-membre {
 
-    height: 7.5%;
-    width: 75%;
+    height: auto;
+    width: 95%;
 }
 .boutonfleche-membreG, .boutonfleche-membreD{
+    padding-top: 25%;
+}
+#image-membre-centre{
+       margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 95%;
 }
