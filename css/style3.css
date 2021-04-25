@@ -2,7 +2,8 @@
 
 html { scroll-behavior: smooth; }
 
-body { font-family: 'Cocogoose Classic Trial', sans-serif; }
+body { font-family: 'Cocogoose Classic Trial', sans-serif; 
+background-color: #F2E9E4;}
 
 .sec-1 {
     background: #F2E9E4;

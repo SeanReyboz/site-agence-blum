@@ -2,7 +2,8 @@
 
 html { scroll-behavior: smooth; }
 
-body { font-family: 'Cocogoose Classic Trial', sans-serif; }
+body { font-family: 'Cocogoose Classic Trial', sans-serif; 
+background-color: #007EA7;}
 
 
 
@@ -200,37 +201,17 @@ address li img {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-  #content-graph {
-   display: none;
-   color: #003459;  
- }
-#content-AV {
+  #content-graph, #content-AV, #content-com, #content-prog {
   display: none;
   color: #003459;
+        margin-bottom: auto;
+      margin-top: auto;
 }
-#content-com {
-  display: none;
-  color: #003459;
-}
-#content-prog {
-  display: none;
-  color: #003459;
-}
-#content-graph p {
-   color: #003459; 
-       font-weight: 600; 
- }
-#content-AV  p{
+#content-graph p, #content-AV  p, #content-com  p, #content-prog  p{
   color: #003459;
       font-weight: 600;
-}
-#content-com  p{
-  color: #003459;
-      font-weight: 600;
-}
-#content-prog  p{
-  color: #003459;
-      font-weight: 600;
+      margin-bottom: auto;
+      margin-top: auto;
 }
 
 /* Animations  */
