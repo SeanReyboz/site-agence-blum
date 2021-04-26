@@ -61,7 +61,8 @@ body {
 }
 
 .sec-1 li {
-    margin: 0 75px 0;
+    margin: auto 75px auto;
+
 }
 
 .scroll-button {

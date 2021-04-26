@@ -11,6 +11,7 @@
     <link href="http://fonts.cdnfonts.com/css/cocogoose-classic-trial" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="../js/code.js"></script>
 </head>
 
 <body>
@@ -31,8 +32,8 @@
                         <!-- <div class="dropdown-content"> -->
                         <ul class="dropdown-content">
                             <li><a href="index.html">AGENCE</a></li>
-                            <li><a href="page2.html">OISEAUX</a></li>
-                            <li><a href="page3.html">REALISATIONS</a></li>
+                            <li><a href="page2.html">NOS OISEAUX</a></li>
+                            <li><a href="page3.html">NOS REALISATIONS</a></li>
                         </ul>
                         <!-- </div> -->
                     </nav>
@@ -133,95 +134,6 @@
             </ul>
         </address>
     </footer>
-    <script>
-    /*
-        Script menu responsive. Permet d'ajouter la classe `responsive` a l'element d'id `TopNav`
-    */
-    function MenuResponsive() {
-        var menuDeroulant = document.getElementById("TopNav");
-        if (menuDeroulant.className === "navbar") {
-            menuDeroulant.className += " responsive";
-        } else {
-            menuDeroulant.className = "navbar";
-        }
-    }
-
-    function derouler_graph() {
-
-        document.getElementById("content-graph").style.display = "inline-block";
-
-        document.getElementById("content-AV").style.display = "none";
-        document.getElementById("content-com").style.display = "none";
-        document.getElementById("content-prog").style.display = "none";
-
-        document.getElementById("plus-button-graph").style.cursor = "pointer";
-        document.getElementById("plus-button-graph").style.display = "none";
-
-
-        document.getElementById("plus-button-prog").style.display = "block";
-        document.getElementById("plus-button-av").style.display = "block";
-        document.getElementById("plus-button-com").style.display = "block";
-
-
-    }
-
-    function derouler_av() {
-
-        document.getElementById("content-AV").style.display = "inline-block";
-
-        document.getElementById("content-graph").style.display = "none";
-        document.getElementById("content-com").style.display = "none";
-        document.getElementById("content-prog").style.display = "none";
-
-        document.getElementById("plus-button-av").style.cursor = "pointer";
-        document.getElementById("plus-button-av").style.display = "none";
-
-
-        document.getElementById("plus-button-prog").style.display = "block";
-        document.getElementById("plus-button-graph").style.display = "block";
-        document.getElementById("plus-button-com").style.display = "block";
-
-
-    }
-
-    function derouler_com() {
-
-        document.getElementById("content-com").style.display = "inline-block";
-
-        document.getElementById("content-graph").style.display = "none";
-        document.getElementById("content-AV").style.display = "none";
-        document.getElementById("content-prog").style.display = "none";
-
-        document.getElementById("plus-button-com").style.cursor = "pointer";
-        document.getElementById("plus-button-com").style.display = "none";
-
-
-        document.getElementById("plus-button-prog").style.display = "block";
-        document.getElementById("plus-button-av").style.display = "block";
-        document.getElementById("plus-button-graph").style.display = "block";
-
-
-    }
-
-    function derouler_prog() {
-
-        document.getElementById("content-prog").style.display = "inline-block";
-
-        document.getElementById("content-graph").style.display = "none";
-        document.getElementById("content-AV").style.display = "none";
-        document.getElementById("content-com").style.display = "none";
-
-        document.getElementById("plus-button-prog").style.cursor = "pointer";
-        document.getElementById("plus-button-prog").style.display = "none";
-
-
-        document.getElementById("plus-button-graph").style.display = "block";
-        document.getElementById("plus-button-av").style.display = "block";
-        document.getElementById("plus-button-com").style.display = "block";
-
-
-    }
-    </script>
 </body>
 
 </html>
