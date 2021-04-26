@@ -1,111 +1,125 @@
 @media (max-width: 480px) {
 
-body,html{
-    background-color: #F2E9E4;
-    max-width: 480px;
-    height: auto;
-}
+    body,
+    html {
+        background-color: #F2E9E4;
+        max-width: 480px;
+        height: auto;
+    }
 
-header #menu {
-    display: none;
-}
-header{
-     
-    margin-left: -15%;
-    margin-top: -4%;
-}
-header #menu-tel {
+    header #menu {
+        display: none;
+    }
 
-display: flex;
-}
-ul{
-    list-style-type: none;
-}
-#menu-bg{
-margin-top: auto;
-margin-bottom: auto;
-    margin-left: 18px;
-}
-#rectangle1{
-    width: 30px;
-    height: 5px;
-    border-radius: 2px;
-    background-color: black;
-}
-#rectangle2{
-    margin-top: 5px;
-    width: 30px;
-    height: 5px;
-    border-radius: 2px;
-    background-color: black;
-}
-#rectangle3{
-    margin-top: 5px;
-    width: 30px;
-    height: 5px;
-    border-radius: 2px;
-    background-color: black;
-}
-#nomagence{
-margin-left: auto;
-margin-right: auto;
-margin-top: auto;
-margin-bottom: auto;
-vertical-align: center;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 51px;
-color: #007EA7;
-}
+    header {
 
-#logo-blum-header{
-position: absolute;
-right: 15px;
-width: 60px;
-height: 50px;
-float: right;
-margin-top: auto;
-margin-bottom: auto;
-}
-#grostitre{
-max-height: 5em;
-width: auto;
-align-items: center;
-}
+        margin-left: -15%;
+        margin-top: -4%;
+    }
+
+    header #menu-tel {
+
+        display: flex;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    #menu-bg {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 18px;
+    }
+
+    #rectangle1 {
+        width: 30px;
+        height: 5px;
+        border-radius: 2px;
+        background-color: black;
+    }
+
+    #rectangle2 {
+        margin-top: 5px;
+        width: 30px;
+        height: 5px;
+        border-radius: 2px;
+        background-color: black;
+    }
+
+    #rectangle3 {
+        margin-top: 5px;
+        width: 30px;
+        height: 5px;
+        border-radius: 2px;
+        background-color: black;
+    }
+
+    #nomagence {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        vertical-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 51px;
+        color: #007EA7;
+    }
+
+    #logo-blum-header {
+        position: absolute;
+        right: 15px;
+        width: 60px;
+        height: 50px;
+        float: right;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #grostitre {
+        max-height: 5em;
+        width: auto;
+        align-items: center;
+    }
 
 
- #groupe {
-margin-left: auto;
-margin-right: auto; 
-font-size: 16px;
-height:auto;
-width: 100%;
-}
-.nomgroupe {
-margin-left: -5%;
-}
+    #groupe {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        height: auto;
+        width: 100%;
+    }
 
-.boutonflecheD {
-margin-left: -5%;
-}
+    .nomgroupe {
+        margin-left: -5%;
+    }
 
-.nom a {
-width: 100%;
-}
-#personne{
-    width: 500px;
-}
+    .boutonflecheD {
+        margin-left: -5%;
+    }
 
-#iut img{
-    height: 2em;
-}
-footer img{
-    height: 1.5em;
-}
-footer .pages {
-    background:#F2E9E4; 
-}
+    .nom a {
+        width: 100%;
+    }
+
+    #personne {
+        width: 500px;
+    }
+
+    #iut img {
+        height: 2em;
+    }
+
+    footer img {
+        height: 1.5em;
+    }
+
+    footer .pages {
+        background: #F2E9E4;
+    }
 
 
 }
@@ -140,23 +154,26 @@ body {
 
 header {
     padding-top: 4%;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 0%;
 }
+
 #menu-tel {
     display: none;
 }
+
 #menu {
     display: flex;
 }
 
-#menu .nav {
-}
+#menu .nav {}
+
 #logoBlum {
     margin-left: auto;
     margin-right: auto;
 }
+
 header a {
     text-transform: uppercase;
     color: #007EA7;
@@ -183,7 +200,7 @@ header a {
 #grostitre h1 {
     text-transform: uppercase;
     color: #003459;
-        margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #sec-2 {
@@ -202,8 +219,8 @@ header a {
     padding-bottom: 3%;
     display: flex;
     text-align: center;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nomgroupe {
@@ -220,12 +237,14 @@ margin-right: auto;
     color: #003459;
 }
 
-#membre, #réalisation {
+#membre,
+#réalisation {
     display: flex;
     padding-top: 3%;
     padding-bottom: 3%;
 }
-#membre{
+
+#membre {
     margin-left: auto;
     margin-right: auto;
 }
@@ -234,6 +253,7 @@ margin-right: auto;
     margin-left: auto;
     vertical-align: center;
 }
+
 .boutonflecheD {
     vertical-align: center;
     transform: scaleX(-1);
@@ -244,20 +264,23 @@ margin-right: auto;
     padding-left: 10%;
     padding-right: 10%;
 }
-#photo-membre{
-}
-.boutonfleche-membreG{
+
+#photo-membre {}
+
+.boutonfleche-membreG {
     margin-left: auto;
 }
-.boutonfleche-membreD{
-margin-right: auto;
+
+.boutonfleche-membreD {
+    margin-right: auto;
 }
+
 .nom {
     margin-top: auto;
     margin-bottom: auto;
     padding-top: 3%;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 3%;
     text-align: center;
 }
@@ -280,15 +303,15 @@ footer {
     color: #003459;
     font-weight: bold;
     padding-top: 4%;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 2%;
     display: flex;
 }
 
 footer ul {
     list-style: none;
-    display:block;
+    display: block;
     margin-top: 10%;
 }
 
@@ -297,19 +320,22 @@ footer li {
     margin-top: 5%;
 }
 
-#contact{
-        text-align: center;
+#contact {
+    text-align: center;
     margin-left: auto;
 }
-#reseaux{
+
+#reseaux {
     text-align: center;
-   margin-left: auto;
-margin-right: auto;
-}
-#iut{
-        text-align: center;
+    margin-left: auto;
     margin-right: auto;
 }
+
+#iut {
+    text-align: center;
+    margin-right: auto;
+}
+
 footer li a {
     color: #003459;
     font-weight: bold;
@@ -317,11 +343,13 @@ footer li a {
     margin-bottom: auto;
     margin-top: auto;
 }
-footer h1{
+
+footer h1 {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
 }
+
 footer img {
     margin-right: 5%
 }
@@ -331,12 +359,15 @@ footer img {
     height: auto;
     width: 95%;
 }
-.boutonfleche-membreG, .boutonfleche-membreD{
+
+.boutonfleche-membreG,
+.boutonfleche-membreD {
     margin-top: 25%;
     margin-bottom: auto;
 }
-#image-membre-centre{
-       margin-left: auto;
+
+#image-membre-centre {
+    margin-left: auto;
     margin-right: auto;
     height: auto;
     width: 60%;

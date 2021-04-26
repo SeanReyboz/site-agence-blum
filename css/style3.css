@@ -1,9 +1,17 @@
-* { padding: 0; margin: 0; box-sizing: border-box; }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-html { scroll-behavior: smooth; }
+html {
+    scroll-behavior: smooth;
+}
 
-body { font-family: 'Cocogoose Classic Trial', sans-serif; 
-background-color: #F2E9E4;}
+body {
+    font-family: 'Cocogoose Classic Trial', sans-serif;
+    background-color: #F2E9E4;
+}
 
 .sec-1 {
     background: #F2E9E4;
@@ -35,8 +43,9 @@ background-color: #F2E9E4;}
 }
 
 .sec-1 .titre {
-  display: none;
+    display: none;
 }
+
 .sec-1 a {
     font-weight: 850;
     font-size: 30px;
@@ -136,13 +145,16 @@ p {
 
 footer {
     max-height: 228px;
-} 
+}
+
 #main {
-      background: #007EA7;
+    background: #007EA7;
 }
-.pages{
-  background: #F2E9E4;
+
+.pages {
+    background: #F2E9E4;
 }
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -150,9 +162,10 @@ footer {
 }
 
 address {
-  padding-top: 5%;
-  padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
+
 address ul {
     display: flex;
     align-items: center;
@@ -162,15 +175,15 @@ address ul li {
     margin: 0 30px;
     display: inline;
 }
-address li img {
 
-}
+address li img {}
+
 .logo-univ ul {
     display: flex;
 }
 
 .logo-univ li {
-    margin: 0 10px ;
+    margin: 0 10px;
 }
 
 .logo-univ li:nth-child(1) {
@@ -180,14 +193,14 @@ address li img {
 /* Dropdown compétences - A travailler */
 
 .dropbtn {
-  position: relative;
+    position: relative;
 }
 
 .dropdown-content {
-  /* position: absolute; */
-  display: none;
-  min-height: 50px;
-  z-index: 5;
+    /* position: absolute; */
+    display: none;
+    min-height: 50px;
+    z-index: 5;
 }
 
 .dropdown-content p {
@@ -196,149 +209,185 @@ address li img {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
-.navbar  ul {
-  align-items: center;
+
+.navbar ul {
+    align-items: center;
 }
+
 /* Animations  */
 
 @keyframes title-zoom-in {
-  from { font-size: 30px; }
-  to { font-size: 35px; }
+    from {
+        font-size: 30px;
+    }
+
+    to {
+        font-size: 35px;
+    }
 }
 
 .sec-1_header-pages li:hover a {
-  animation-name: title-zoom-in;
-  animation-duration: 1s;
-  animation-timing-function: ease;
+    animation-name: title-zoom-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
+
 .sec-1_header-pages li:hover a {
-  animation-name: title-zoom-in;
-  animation-duration: 1s;
-  animation-timing-function: ease;
+    animation-name: title-zoom-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 @media screen and (max-width: 915px) {
 
-.logo {
-    display: flex;
-}
-  h1 { font-size: 2rem; }
+    .logo {
+        display: flex;
+    }
 
-  .container,
-  .sec-1,
-  .sec-2,
-  .sec-2__container,
-  .sec-3,
-  .sec-3__main { height: auto; }
+    h1 {
+        font-size: 2rem;
+    }
 
-  .sec-1 ul,
-  .navbar .dropdown-content,
-  .scroll-button,
-  .sec-3__main ul:last-child { display: none; }
+    .container,
+    .sec-1,
+    .sec-2,
+    .sec-2__container,
+    .sec-3,
+    .sec-3__main {
+        height: auto;
+    }
 
-  .navbar img {
-    display: none;
-  }
-  .navbar ul{
-    align-items: none;
-  }
-  .sec-1_header-pages {
-    display: flex;
-    flex-direction: row-reverse;
-  }
+    .sec-1 ul,
+    .navbar .dropdown-content,
+    .scroll-button,
+    .sec-3__main ul:last-child {
+        display: none;
+    }
 
-  .sec-1_header-pages .titre {
-      flex-grow: 1;
-      display: block;
-  }
+    .navbar img {
+        display: none;
+    }
 
-  .sec-1 .titre h1 {
-    font-size: 3rem;
-    color: #007EA7;
-    opacity: 1;
-    line-height: 60px;
-    text-align: center;
-  }
+    .navbar ul {
+        align-items: none;
+    }
 
-  .sec-1_header-pages .logo,
-  .sec-1 nav,
-  .sec-1 li,
-  .sec-2__header h1,
-  .sec-3__header h1,
-  .sec-3__main { margin: 0 0; }
+    .sec-1_header-pages {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
-  .sec-1_header-pages .logo img { width: 5rem; }
+    .sec-1_header-pages .titre {
+        flex-grow: 1;
+        display: block;
+    }
 
-  .sec-1_header-pages a.icon {
-      display: block;
-      font-size: 32px;
-      padding-left: 16px;
-      color: #003459;
-  }
+    .sec-1 .titre h1 {
+        font-size: 3rem;
+        color: #007EA7;
+        opacity: 1;
+        line-height: 60px;
+        text-align: center;
+    }
 
-  .sec-2__header { justify-content: flex-start; }
+    .sec-1_header-pages .logo,
+    .sec-1 nav,
+    .sec-1 li,
+    .sec-2__header h1,
+    .sec-3__header h1,
+    .sec-3__main {
+        margin: 0 0;
+    }
 
-  .sec-2 p { font-size: 1.1rem; }
+    .sec-1_header-pages .logo img {
+        width: 5rem;
+    }
 
-  .sec-3__main {
-      padding-left: 20px;
-      align-content: flex-start;
-      justify-content: justify;
-  }
+    .sec-1_header-pages a.icon {
+        display: block;
+        font-size: 32px;
+        padding-left: 16px;
+        color: #003459;
+    }
 
-  .sec-3__main li {
-      margin: 0 10px;
-      font-weight: 850;
-      font-size: 1.5rem;
-  }
+    .sec-2__header {
+        justify-content: flex-start;
+    }
 
-  .sec-3__main ul:nth-child(2) {
-      flex-grow: 1;
-      align-items: center;
-  }
+    .sec-2 p {
+        font-size: 1.1rem;
+    }
 
-  .sec-3__main img { width: 44px; }
+    .sec-3__main {
+        padding-left: 20px;
+        align-content: flex-start;
+        justify-content: justify;
+    }
 
-  .dropdown-content { display: block; }
+    .sec-3__main li {
+        margin: 0 10px;
+        font-weight: 850;
+        font-size: 1.5rem;
+    }
 
-  .navbar.responsive { position: relative; }
+    .sec-3__main ul:nth-child(2) {
+        flex-grow: 1;
+        align-items: center;
+    }
 
-  .navbar.responsive nav ul {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .navbar.responsive nav {
-      float: none;
-      width: 100vw;
-      height: 30%;
-  }
+    .sec-3__main img {
+        width: 44px;
+    }
 
-  .navbar.responsive .dropdown-content {
-      position: relative;
-      display: block;
-  }
+    .dropdown-content {
+        display: block;
+    }
 
-  .dropdown-content a {
-      float: none;
-      padding: 12px 16px;
-  }
+    .navbar.responsive {
+        position: relative;
+    }
 
-  .dropdown-content p {
-      font-size: 1rem;
-      font-weight: 500;
-      padding: 0 12px;
-  }
+    .navbar.responsive nav ul {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 
-  footer {
-      display: flex;
-      flex-direction: row-reverse;
-  }
+    .navbar.responsive nav {
+        float: none;
+        width: 100vw;
+        height: 30%;
+    }
 
-  .logo-univ ul { flex-direction: column; }
+    .navbar.responsive .dropdown-content {
+        position: relative;
+        display: block;
+    }
 
-  .logo-univ li { margin: 5px 10px ; }
+    .dropdown-content a {
+        float: none;
+        padding: 12px 16px;
+    }
+
+    .dropdown-content p {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0 12px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .logo-univ ul {
+        flex-direction: column;
+    }
+
+    .logo-univ li {
+        margin: 5px 10px;
+    }
 
 }
