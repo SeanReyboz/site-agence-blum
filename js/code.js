@@ -1,3 +1,6 @@
+    var membre = 1;
+    var groupe = 1;
+
     /*
         Script menu responsive. Permet d'ajouter la classe `responsive` a l'element d'id `TopNav`
     */
@@ -92,5 +95,50 @@
             menuDeroulant.className += " responsive";
         } else {
             menuDeroulant.className = "navbar";
+        }
+    }
+
+
+    function derementation_membre() {
+        if (membre > 1) {
+            membre--;
+        } else {
+            if (groupe == 2) {
+                membre = 3;
+            } else {
+                membre = 4;
+            }
+        }
+        console.log(membre);
+    }
+
+    function incrementation_membre() {
+        if (groupe == 2) {
+            if (membre < 3) {
+                membre++;
+            } else {
+                membre = 1;
+            }
+        } else {
+            if (membre < 4) {
+                membre++;
+            } else {
+                membre = 1;
+            }
+        }
+
+        console.log(membre);
+    }
+
+    function slide_membre() {
+        if (groupe == 1) {
+            if (membre == 1) {
+                document.getElementById("Corentin").style.visibility = "visible";
+                document.getElementById("Hugo").style.visibility = "hidden";
+            }
+            if (membre == 2) {
+                document.getElementById("Corentin").style.visibility = "hidden";
+                document.getElementById("Hugo").style.visibility = "visible";
+            }
         }
     }

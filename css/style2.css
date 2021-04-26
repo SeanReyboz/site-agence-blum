@@ -372,3 +372,13 @@ footer img {
     height: auto;
     width: 60%;
 }
+
+
+#Corentin {
+    visibility: visible;
+}
+
+#Hugo {
+    transform: translate(0, -107.5%);
+    visibility: hidden;
+}

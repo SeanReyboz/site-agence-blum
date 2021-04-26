@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="../libs/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
     <link rel="stylesheet" type="text/css" href="../css/style3.css">
+    <script type="text/javascript" src="../js/code.js"></script>
 </head>
 
-<body>
+<body onmousemove="slide_membre()">
     <section id="sec-1">
         <section class="sec-1">
             <div class="container">
@@ -59,7 +60,7 @@
         </div>
         <div id="membre">
             <div class="boutonfleche-membreG">
-                <img src="../img/right-arrow-next-svgrepo-com 6.png" alt="bouton cliquable">
+                <img src="../img/right-arrow-next-svgrepo-com 6.png" alt="bouton cliquable" onclick="derementation_membre()">
             </div>
             <div id="personne">
                 <div id="Corentin">
@@ -69,14 +70,23 @@
                     <div class="nom">
                         <a>Corentin Arnoux</a>
                     </div>
-                    <p class="description" id="descriptionCorentin">Travaille et échange avec
+                    <p class="description" id="description">Travaille et échange avec
                         les profs plus qu’on ne le pense pour économiser le temps de tous. Il
                         divise ses nuits entre Illustrator, s’occuper de Blum et faire la fête.</p>
+                </div>
+                <div id="Hugo">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Hugo.jpg" alt="Photo de Hugo Clément">
+                    </div>
+                    <div class="nom">
+                        <a>Hugo Clément</a>
+                    </div>
+                    <p class="description" id="description">Hugo créer les liens entre les membres et les rapproches. Animateur et Happiness Manager de renom,est toujours présent pour faire la fête mais aussi pour faire la fête.</p>
                 </div>
                 <!--D'autres gens en fonction du groupe       EN COURS DE CHERCHAGE-->
             </div>
             <div class="boutonfleche-membreD">
-                <img src="../img/right-arrow-next-svgrepo-com 3.png" alt="bouton cliquable">
+                <img src="../img/right-arrow-next-svgrepo-com 3.png" alt="bouton cliquable" onclick="incrementation_membre()">
             </div>
         </div>
     </section>
