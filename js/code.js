@@ -192,9 +192,8 @@
             }
             if (membre == 3) {
                 document.getElementById("Lauriane_C").style.display = "none";
-                document.getElementById("Mathilde ").style.display = "
-none ";
-document.getElementById("Loriane_M").style.display = "block";
+                document.getElementById("Mathilde").style.display = "none";
+                document.getElementById("Loriane_M").style.display = "block";
                 document.getElementById("Valentin").style.display = "none";
             }
             if (membre == 4) {
@@ -306,7 +305,11 @@ document.getElementById("Loriane_M").style.display = "block";
             document.getElementById("Benjamin").style.display = "none";
             document.getElementById("Nicolas").style.display = "none";
             document.getElementById("Maxence_BB").style.display = "none";
-
+            
+            document.getElementById("Corentin").style.display = "none";
+            document.getElementById("Hugo").style.display = "none";
+            document.getElementById("Noe").style.display = "none";
+            document.getElementById("Sean").style.display = "none";
 
             if (membre == 1) {
                 document.getElementById("Elliott").style.display = "block";
@@ -332,7 +335,6 @@ document.getElementById("Loriane_M").style.display = "block";
                 document.getElementById("Lauriane_S").style.display = "none";
                 document.getElementById("Maxence_F").style.display = "block";
             }
-
         }
     }
 
