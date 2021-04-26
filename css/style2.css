@@ -423,6 +423,7 @@ footer img {
 #Sean {
     display: none;
 }
+
 #Benjamin {
     display: none;
 }
@@ -438,6 +439,7 @@ footer img {
 #Maxence_F {
     display: none;
 }
+
 #Victoire {
     display: none;
 }
@@ -449,16 +451,19 @@ footer img {
 #Lauriane_S {
     display: none;
 }
-#Paisible{
+
+#Paisible {
     display: block;
 }
-#Trap{
-    display: none;
-}
-#rea_Amerique_du_Nord{
-    display: none;
-}
-#rea_Amerique_du_Sud{
+
+#Trap {
     display: none;
 }
 
+#rea_Amerique_du_Nord {
+    display: none;
+}
+
+#rea_Amerique_du_Sud {
+    display: none;
+}

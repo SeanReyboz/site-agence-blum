@@ -192,8 +192,9 @@
             }
             if (membre == 3) {
                 document.getElementById("Lauriane_C").style.display = "none";
-                document.getElementById("Mathilde").style.display = "none";
-                document.getElementById("Loriane_M").style.display = "block";
+                document.getElementById("Mathilde ").style.display = "
+none ";
+document.getElementById("Loriane_M").style.display = "block";
                 document.getElementById("Valentin").style.display = "none";
             }
             if (membre == 4) {
