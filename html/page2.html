@@ -11,7 +11,7 @@
     <script type="text/javascript" src="../js/code.js"></script>
 </head>
 
-<body onmousemove="slide_membre()">
+<body onclick="slide_membre()">
     <section id="sec-1">
         <section class="sec-1">
             <div class="container">
@@ -45,14 +45,23 @@
     </section>
     <section id="sec-2">
         <div id="groupe">
-            <div class="boutonflecheG" id="groupeG">
+            <div class="boutonflecheG" id="groupeG" onclick="derementation_groupe()">
                 <img src="../img/petitgauche.svg" alt="bouton cliquable">
             </div>
-            <div class="nomgroupe">
+            <div class="nomgroupe" id="Oceanie">
+                <a>Océanie</a>
+            </div>
+            <div class="nomgroupe" id="Amerique_du_Sud">
+                <a>Amérique du Sud</a>
+            </div>
+            <div class="nomgroupe" id="Europe">
                 <a>Europe</a>
             </div>
+            <div class="nomgroupe" id="Amerique_du_Nord">
+                <a>Amérique du Nord</a>
+            </div>
             <div class="boutonflecheD" id="groupeD">
-                <img src="../img/petitgauche.svg" alt="bouton cliquable">
+                <img src="../img/petitgauche.svg" alt="bouton cliquable" onclick="derementation_groupe()">
             </div>
             <!--<h3>Europe</h3>
                 <h3>Amérique du sud</h3>
@@ -63,6 +72,89 @@
                 <img src="../img/right-arrow-next-svgrepo-com 6.png" alt="bouton cliquable" onclick="derementation_membre()">
             </div>
             <div id="personne">
+                <div id="Lauriane_C">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Lauriane_C.jpg" alt="Photo de Corentin Arnoux">
+                    </div>
+                    <div class="nom">
+                        <a>Lauriane Caillat</a>
+                    </div>
+                    <p class="description" id="description">Travaille et échange avec
+                        les profs plus qu’on ne le pense pour économiser le temps de tous. Il
+                        divise ses nuits entre Illustrator, s’occuper de Blum et faire la fête.</p>
+                </div>
+                <div id="Mathilde">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Mathilde.jpg" alt="Photo de Mathilde Sabourin">
+                    </div>
+                    <div class="nom">
+                        <a>Mathilde Sabourin</a>
+                    </div>
+                    <p class="description" id="description">Hugo créer les liens entre les membres et les rapproches. Animateur et Happiness Manager de renom,est toujours présent pour faire la fête mais aussi pour faire la fête.</p>
+                </div>
+                <div id="Loriane_M">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Loriane_M.jpg" alt="Photo de Noé Perrier">
+                    </div>
+                    <div class="nom">
+                        <a>Lauriane Macé</a>
+                    </div>
+                    <p class="description" id="description">Créatif, sociable, polyvalent, toujours souriant et présent, il apporte plein de good vibes !</p>
+                </div>
+                <div id="Valentin">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Valentin.jpg" alt="Photo de Sean Reyboz">
+                    </div>
+                    <div class="nom">
+                        <a>Valentin Gassend</a>
+                    </div>
+                    <p class="description" id="description">Sean adore la sécurité informatique mais déteste facebook. On ne regrette pas de l’avoir rencontré après lui avoir parlé ne serait-ce que quelques minutes.</p>
+                </div>
+
+
+
+
+                <!--AUTRE GROUPE-->
+
+
+
+
+                <div id="Benjamin">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Benjamin.jpg" alt="Photo de Corentin Arnoux">
+                    </div>
+                    <div class="nom">
+                        <a>Benjamin Bardou</a>
+                    </div>
+                    <p class="description" id="description">Travaille et échange avec
+                        les profs plus qu’on ne le pense pour économiser le temps de tous. Il
+                        divise ses nuits entre Illustrator, s’occuper de Blum et faire la fête.</p>
+                </div>
+                <div id="Nicolas">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Nicolas.jpg" alt="Photo de Hugo Clément">
+                    </div>
+                    <div class="nom">
+                        <a>Nicolas Schutz</a>
+                    </div>
+                    <p class="description" id="description">Hugo créer les liens entre les membres et les rapproches. Animateur et Happiness Manager de renom,est toujours présent pour faire la fête mais aussi pour faire la fête.</p>
+                </div>
+                <div id="Maxence_BB">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Maxence_BB.jpg" alt="Photo de Noé Perrier">
+                    </div>
+                    <div class="nom">
+                        <a>Maxence Bizel-Bizellot</a>
+                    </div>
+                    <p class="description" id="description">Créatif, sociable, polyvalent, toujours souriant et présent, il apporte plein de good vibes !</p>
+                </div>
+
+
+
+                <!--AUTRE GROUPE-->
+
+
+
                 <div id="Corentin">
                     <div id="image-membre-centre">
                         <img id="photo-membre" src="../img/Coco.jpg" alt="Photo de Corentin Arnoux">
@@ -82,6 +174,69 @@
                         <a>Hugo Clément</a>
                     </div>
                     <p class="description" id="description">Hugo créer les liens entre les membres et les rapproches. Animateur et Happiness Manager de renom,est toujours présent pour faire la fête mais aussi pour faire la fête.</p>
+                </div>
+                <div id="Noe">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Noe.jpg" alt="Photo de Noé Perrier">
+                    </div>
+                    <div class="nom">
+                        <a>Noé Perrier</a>
+                    </div>
+                    <p class="description" id="description">Créatif, sociable, polyvalent, toujours souriant et présent, il apporte plein de good vibes !</p>
+                </div>
+                <div id="Sean">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Sean.jpg" alt="Photo de Sean Reyboz">
+                    </div>
+                    <div class="nom">
+                        <a>Sean Reyboz</a>
+                    </div>
+                    <p class="description" id="description">Sean adore la sécurité informatique mais déteste facebook. On ne regrette pas de l’avoir rencontré après lui avoir parlé ne serait-ce que quelques minutes.</p>
+                </div>
+
+
+                
+                <!--AUTRE GROUPE-->
+
+
+
+                <div id="Elliott">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Elliott.jpg" alt="Photo de Elliott Vaufrey">
+                    </div>
+                    <div class="nom">
+                        <a>Elliott Vaufrey</a>
+                    </div>
+                    <p class="description" id="description">Travaille et échange avec
+                        les profs plus qu’on ne le pense pour économiser le temps de tous. Il
+                        divise ses nuits entre Illustrator, s’occuper de Blum et faire la fête.</p>
+                </div>
+                <div id="Victoire">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Victoire.jpg" alt="Photo de Hugo Clément">
+                    </div>
+                    <div class="nom">
+                        <a>Victoire Tochon</a>
+                    </div>
+                    <p class="description" id="description">Hugo créer les liens entre les membres et les rapproches. Animateur et Happiness Manager de renom,est toujours présent pour faire la fête mais aussi pour faire la fête.</p>
+                </div>
+                <div id="Lauriane_S">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Lauriane_S.jpg" alt="Photo de Noé Perrier">
+                    </div>
+                    <div class="nom">
+                        <a>Lauriane Samuel</a>
+                    </div>
+                    <p class="description" id="description">Créatif, sociable, polyvalent, toujours souriant et présent, il apporte plein de good vibes !</p>
+                </div>
+                <div id="Maxence_F">
+                    <div id="image-membre-centre">
+                        <img id="photo-membre" src="../img/Maxence_F.jpg" alt="Photo de Sean Reyboz">
+                    </div>
+                    <div class="nom">
+                        <a>Maxence Flety</a>
+                    </div>
+                    <p class="description" id="description">Sean adore la sécurité informatique mais déteste facebook. On ne regrette pas de l’avoir rencontré après lui avoir parlé ne serait-ce que quelques minutes.</p>
                 </div>
                 <!--D'autres gens en fonction du groupe       EN COURS DE CHERCHAGE-->
             </div>

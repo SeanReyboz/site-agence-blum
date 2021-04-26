@@ -373,12 +373,79 @@ footer img {
     width: 60%;
 }
 
+#Océane {
+    display: flex;
+}
+
+#Amerique_du_Sud {
+    display: none;
+}
+
+#Europe {
+    display: none;
+}
+
+#Amerique_du_Nord {
+    display: none;
+}
+
+#Lauriane_C {
+    display: block;
+}
+
+#Mathilde {
+    display: none;
+}
+
+#Loriane_M {
+    display: none;
+}
+
+#Valentin {
+
+    display: none;
+}
+
+
 
 #Corentin {
-    visibility: visible;
+    display: none;
 }
 
 #Hugo {
-    transform: translate(0, -107.5%);
-    visibility: hidden;
+    display: none;
+}
+
+#Noe {
+    display: none;
+}
+
+#Sean {
+    display: none;
+}
+#Benjamin {
+    display: none;
+}
+
+#Nicolas {
+    display: none;
+}
+
+#Maxence_BB {
+    display: none;
+}
+
+#Maxence_F {
+    display: none;
+}
+#Victoire {
+    display: none;
+}
+
+#Elliott {
+    display: none;
+}
+
+#Lauriane_S {
+    display: none;
 }
