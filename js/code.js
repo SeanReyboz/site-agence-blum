@@ -334,3 +334,64 @@
 
         }
     }
+
+
+    function slide_rea() {
+
+
+        /* 
+        groupe 1 = Océanie 
+        groupe 2 = Amérique du Sud 
+        groupe 3 = Europe 
+        groupe 4 = Amérique du Nord 
+        */
+        if (groupe == 1) {
+            document.getElementById("Oceanie").style.display = "block";
+            document.getElementById("Amerique_du_Sud").style.display = "none";
+            document.getElementById("Europe").style.display = "none";
+            document.getElementById("Amerique_du_Nord").style.display = "none";
+
+            document.getElementById("Paisible").style.display = "block";
+            document.getElementById("rea_Amerique_du_Sud").style.display = "none";
+            document.getElementById("Trap").style.display = "none";
+            document.getElementById("rea_Amerique_du_Nord").style.display = "none";
+
+
+        }
+        if (groupe == 2) {
+            document.getElementById("Oceanie").style.display = "none";
+            document.getElementById("Amerique_du_Sud").style.display = "block";
+            document.getElementById("Europe").style.display = "none";
+            document.getElementById("Amerique_du_Nord").style.display = "none";
+
+            document.getElementById("Paisible").style.display = "none";
+            document.getElementById("rea_Amerique_du_Sud").style.display = "block";
+            document.getElementById("Trap").style.display = "none";
+            document.getElementById("rea_Amerique_du_Nord").style.display = "none";
+        }
+        if (groupe == 3) {
+            document.getElementById("Oceanie").style.display = "none";
+            document.getElementById("Amerique_du_Sud").style.display = "none";
+            document.getElementById("Europe").style.display = "block";
+            document.getElementById("Amerique_du_Nord").style.display = "none";
+
+            document.getElementById("Paisible").style.display = "none";
+            document.getElementById("rea_Amerique_du_Sud").style.display = "none";
+            document.getElementById("Trap").style.display = "block";
+            document.getElementById("rea_Amerique_du_Nord").style.display = "none";
+
+        }
+        if (groupe == 4) {
+            document.getElementById("Oceanie").style.display = "none";
+            document.getElementById("Amerique_du_Sud").style.display = "none";
+            document.getElementById("Europe").style.display = "none";
+            document.getElementById("Amerique_du_Nord").style.display = "block";
+
+            document.getElementById("Paisible").style.display = "none";
+            document.getElementById("rea_Amerique_du_Sud").style.display = "none";
+            document.getElementById("Trap").style.display = "none";
+            document.getElementById("rea_Amerique_du_Nord").style.display = "block";
+
+
+        }
+    }

@@ -11,7 +11,7 @@
     <script type="text/javascript" src="../js/code.js"></script>
 </head>
 
-<body>
+<body onclick="slide_rea()">
     <section id="sec-1">
         <section class="sec-1">
             <div class="container">
@@ -46,13 +46,22 @@
     <section id="sec-2">
         <div id="groupe">
             <div class="boutonflecheG" id="groupeG">
-                <img src="../img/petitgauche.svg" alt="bouton cliquable">
+                <img src="../img/petitgauche.svg" alt="bouton cliquable"onclick="derementation_groupe()">
             </div>
-            <div class="nomgroupe">
+            <div class="nomgroupe" id="Oceanie">
                 <a>Océanie</a>
             </div>
+            <div class="nomgroupe" id="Amerique_du_Sud">
+                <a>Amérique du Sud</a>
+            </div>
+            <div class="nomgroupe" id="Europe">
+                <a>Europe</a>
+            </div>
+            <div class="nomgroupe" id="Amerique_du_Nord">
+                <a>Amérique du Nord</a>
+            </div>
             <div class="boutonflecheD" id="groupeD">
-                <img src="../img/petitgauche.svg" alt="bouton cliquable">
+                <img src="../img/petitgauche.svg" alt="bouton cliquable"onclick="incrementation_groupe()">
             </div>
             <!--<h3>Europe</h3>
                 <h3>Amérique du sud</h3>
@@ -60,7 +69,7 @@
         </div>
         <div id="réalisation">
             <div class="boutonfleche-membreG">
-                <img src="../img/right-arrow-next-svgrepo-com 6.png" alt="bouton cliquable">
+                <img src="../img/right-arrow-next-svgrepo-com 6.png" alt="bouton cliquable"onclick="derementation_groupe()">
             </div>
             <div id="oeuvre">
                 <div id="Paisible">
@@ -72,10 +81,37 @@
                     </div>
                     <p class="description" id="descriptionPaisible">Description de Paisible mais j'ai pas trouvé ou elle était, il y a trop de document sur ce drive</p>
                 </div>
+                <div id="Trap">
+                    <div id="image-membre-centre">
+                        <img src="../img/Trap.png" alt="Photo de Trap" id="photo-membre">
+                    </div>
+                    <div class="nom">
+                        <a>Tr@p</a>
+                    </div>
+                    <p class="description" id="descriptionPaisible">Description de Tr@p mais j'ai pas trouvé ou elle était, il y a trop de document sur ce drive</p>
+                </div>
+                <div id="rea_Amerique_du_Sud">
+                    <div id="image-membre-centre">
+                        <img src="../img/rea_Amerique_du_Sud.png" alt="Photo de rea_Amerique_du_Sud" id="photo-membre">
+                    </div>
+                    <div class="nom">
+                        <a>rea_Amerique_du_Sud</a>
+                    </div>
+                    <p class="description" id="descriptionPaisible">Description de rea_Amerique_du_Sud mais j'ai pas trouvé ou elle était, il y a trop de document sur ce drive</p>
+                </div>
+                <div id="rea_Amerique_du_Nord">
+                    <div id="image-membre-centre">
+                        <img src="../img/rea_Amerique_du_Nord.png" alt="Photo de rea_Amerique_du_Nord" id="photo-membre">
+                    </div>
+                    <div class="nom">
+                        <a>rea_Amerique_du_Nord</a>
+                    </div>
+                    <p class="description" id="descriptionPaisible">Description de rea_Amerique_du_Nord mais j'ai pas trouvé ou elle était, il y a trop de document sur ce drive</p>
+                </div>
                 <!--D'autres oeuvres en fonction du groupe       EN COURS DE CHERCHAGE-->
             </div>
             <div class="boutonfleche-membreD">
-                <img src="../img/right-arrow-next-svgrepo-com 3.png" alt="bouton cliquable">
+                <img src="../img/right-arrow-next-svgrepo-com 3.png" alt="bouton cliquable"onclick="incrementation_groupe()">
             </div>
         </div>
     </section>
