@@ -11,11 +11,11 @@ Repo du site de l'agence.
 - [x] Squelette page Réalisations (Mobile)
 - [x] Squelette page Oiseaux (Desktop)
 - [x] Squelette page Oiseaux (Mobile)
-- [ ] Dropdown compétences
+- [x] Dropdown compétences
 - [ ] Animations
 - [ ] Responsive
-- [ ] Les réalisations (slider fonctionnel)
-- [ ] Les oiseaux (slider fonctionnem)
+- [x] Les réalisations (slider fonctionnel)
+- [x] Les oiseaux (slider fonctionnel)
 - [ ] Accessibilité
 - [ ] Expérience utilisateur
 - [ ] Debug
