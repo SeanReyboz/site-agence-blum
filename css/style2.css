@@ -373,97 +373,49 @@ footer img {
     width: 60%;
 }
 
-#Océane {
-    display: flex;
-}
-
-#Amerique_du_Sud {
-    display: none;
-}
-
-#Europe {
-    display: none;
-}
-
-#Amerique_du_Nord {
-    display: none;
-}
-
-#Lauriane_C {
-    display: block;
-}
-
-#Mathilde {
-    display: none;
-}
-
-#Loriane_M {
-    display: none;
-}
-
-#Valentin {
-
-    display: none;
-}
+/*
+ *  -- SOUS-GROUPES --
+ */
 
 
+#Océane { display: flex; }
 
-#Corentin {
-    display: none;
-}
+#Amerique_du_Sud,
+#Europe,
+#Amerique_du_Nord { display: none; }
 
-#Hugo {
-    display: none;
-}
+/* Oceanie */
 
-#Noe {
-    display: none;
-}
+#Lauriane_C { display: block; }
 
-#Sean {
-    display: none;
-}
+#Mathilde,
+#Loriane_M,
+#Valentin { display: none; }
 
-#Benjamin {
-    display: none;
-}
+/* Europe */
 
-#Nicolas {
-    display: none;
-}
+#Corentin,
+#Hugo,
+#Noe,
+#Sean { display: none; }
 
-#Maxence_BB {
-    display: none;
-}
+/* Amerique du Sud */
 
-#Maxence_F {
-    display: none;
-}
+#Benjamin,
+#Nicolas,
+#Maxence_BB { display: none; }
 
-#Victoire {
-    display: none;
-}
+/* Amerique du Nord */
 
-#Elliott {
-    display: none;
-}
+#Maxence_F,
+#Victoire,
+#Elliott,
+#Lauriane_S { display: none; }
 
-#Lauriane_S {
-    display: none;
-}
+/* Realisations */
 
-#Paisible {
-    display: block;
-}
+#Paisible { display: block; }
 
-#Trap {
-    display: none;
-}
-
-#rea_Amerique_du_Nord {
-    display: none;
-}
-
-#rea_Amerique_du_Sud {
-    display: none;
-}
+#Trap,
+#rea_Amerique_du_Nord,
+#rea_Amerique_du_Sud { display: none; }
