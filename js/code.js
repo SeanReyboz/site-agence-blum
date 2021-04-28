@@ -183,24 +183,44 @@
                 document.getElementById("Mathilde").style.display = "none";
                 document.getElementById("Loriane_M").style.display = "none";
                 document.getElementById("Valentin").style.display = "none";
+
+                document.getElementById("Lauriane_C_desc").style.display = "block";
+                document.getElementById("Mathilde_desc").style.display = "none";
+                document.getElementById("Loriane_M_desc").style.display = "none";
+                document.getElementById("Valentin_desc").style.display = "none";
             }
             if (membre == 2) {
                 document.getElementById("Lauriane_C").style.display = "none";
                 document.getElementById("Mathilde").style.display = "block";
                 document.getElementById("Loriane_M").style.display = "none";
                 document.getElementById("Valentin").style.display = "none";
+
+                document.getElementById("Lauriane_C_desc").style.display = "none";
+                document.getElementById("Mathilde_desc").style.display = "block";
+                document.getElementById("Loriane_M_desc").style.display = "none";
+                document.getElementById("Valentin_desc").style.display = "none";
             }
             if (membre == 3) {
                 document.getElementById("Lauriane_C").style.display = "none";
                 document.getElementById("Mathilde").style.display = "none";
                 document.getElementById("Loriane_M").style.display = "block";
                 document.getElementById("Valentin").style.display = "none";
+
+                document.getElementById("Lauriane_C_desc").style.display = "none";
+                document.getElementById("Mathilde_desc").style.display = "none";
+                document.getElementById("Loriane_M_desc").style.display = "block";
+                document.getElementById("Valentin_desc").style.display = "none";
             }
             if (membre == 4) {
                 document.getElementById("Lauriane_C").style.display = "none";
                 document.getElementById("Mathilde").style.display = "none";
                 document.getElementById("Loriane_M").style.display = "none";
                 document.getElementById("Valentin").style.display = "block";
+
+                document.getElementById("Lauriane_C_desc").style.display = "none";
+                document.getElementById("Mathilde_desc").style.display = "none";
+                document.getElementById("Loriane_M_desc").style.display = "none";
+                document.getElementById("Valentin_desc").style.display = "block";
             }
 
         }

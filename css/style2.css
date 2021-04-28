@@ -1,3 +1,18 @@
+.description_tel {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .description_tel {
+        display: block;
+    }
+
+    #description,
+    .description {
+        display: none;
+    }
+}
+
 @media (max-width: 480px) {
 
     body,
@@ -105,9 +120,7 @@
         width: 100%;
     }
 
-    #description,
-    .description{ font-size: 1.1rem; }
-    
+
     #personne {
         width: 500px;
     }
@@ -126,7 +139,6 @@
 
 
 }
-
 
 
 
@@ -302,6 +314,28 @@ header a {
     font-weight: bold;
 }
 
+.description_tel {
+    text-align: center;
+    color: #F2E9E4;
+    font-weight: bold;
+}
+
+#Lauriane_C_desc {
+    display: block;
+}
+
+#Mathilde_desc {
+    display: none;
+}
+
+#Loriane_M_desc {
+    display: none;
+}
+
+#Valentin_desc {
+    display: none;
+}
+
 footer {
     color: #003459;
     font-weight: bold;
@@ -381,44 +415,62 @@ footer img {
  */
 
 
-#Océanie { display: flex; }
+#Océanie {
+    display: flex;
+}
 
 #Amerique_du_Sud,
 #Europe,
-#Amerique_du_Nord { display: none; }
+#Amerique_du_Nord {
+    display: none;
+}
 
 /* Oceanie */
 
-#Lauriane_C { display: block; }
+#Lauriane_C {
+    display: block;
+}
 
 #Mathilde,
 #Loriane_M,
-#Valentin { display: none; }
+#Valentin {
+    display: none;
+}
 
 /* Europe */
 
 #Corentin,
 #Hugo,
 #Noe,
-#Sean { display: none; }
+#Sean {
+    display: none;
+}
 
 /* Amerique du Sud */
 
 #Benjamin,
 #Nicolas,
-#Maxence_BB { display: none; }
+#Maxence_BB {
+    display: none;
+}
 
 /* Amerique du Nord */
 
 #Maxence_F,
 #Victoire,
 #Elliott,
-#Lauriane_S { display: none; }
+#Lauriane_S {
+    display: none;
+}
 
 /* Realisations */
 
-#Paisible { display: block; }
+#Paisible {
+    display: block;
+}
 
 #Trap,
 #rea_Amerique_du_Nord,
-#rea_Amerique_du_Sud { display: none; }
+#rea_Amerique_du_Sud {
+    display: none;
+}
