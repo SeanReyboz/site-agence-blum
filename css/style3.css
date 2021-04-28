@@ -281,6 +281,8 @@ address li img {}
 
     .sec-1 .titre h1 {
         font-size: 3rem;
+        font-family:'Cocogoose Classic Trial', sans-serif; ;
+        font-weight: 850;
         color: #007EA7;
         opacity: 1;
         line-height: 60px;
