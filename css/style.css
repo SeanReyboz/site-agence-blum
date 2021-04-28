@@ -340,6 +340,10 @@ address li img {}
         margin: 0 0;
     }
 
+    .sec-3__header {
+        padding-left: 2%;
+    }
+
     .sec-1__header .logo img {
         width: 5rem;
     }
@@ -352,6 +356,7 @@ address li img {}
     }
 
     .sec-2__header {
+        padding-left: 2%;
         justify-content: flex-start;
     }
 
@@ -419,6 +424,14 @@ address li img {}
     footer {
         display: flex;
         flex-direction: row-reverse;
+    }
+
+    footer img {
+        height: 1.5em;
+    }
+
+    footer .pages {
+        background: #F2E9E4;
     }
 
     .logo-univ ul {

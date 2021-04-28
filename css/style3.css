@@ -248,7 +248,7 @@ address li img {}
         display: flex;
     }
 
-    #image-membre-centre{
+    #image-membre-centre {
         width: 100%;
     }
 
@@ -272,8 +272,8 @@ address li img {}
     .sec-3__main {
         height: auto;
         max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .sec-1 ul,
