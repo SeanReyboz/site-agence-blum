@@ -105,6 +105,9 @@
         width: 100%;
     }
 
+    #description,
+    .description{ font-size: 1.1rem; }
+    
     #personne {
         width: 500px;
     }

@@ -101,6 +101,7 @@ h1 {
     display: flex;
     flex-flow: wrap column;
     align-items: center;
+    padding: 0 6px;
 }
 
 p {
