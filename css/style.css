@@ -33,9 +33,6 @@ body {
     align-items: center;
 }
 
-#logo_head {
-    width: 250px;
-}
 
 .sec-1__header .logo {
 
@@ -107,6 +104,10 @@ h1 {
     flex-flow: wrap column;
     align-items: center;
     padding: 0 6px;
+}
+
+#logo_head_pc {
+    width: 200px;
 }
 
 p {
@@ -269,8 +270,8 @@ address li img {}
 @media screen and (max-width: 915px) {
 
     #logo_head {
-    width: 75px;
-}
+        width: 75px;
+    }
 
     #content-graph {
         visibility: visible;
@@ -427,5 +428,8 @@ address li img {}
     .logo-univ li {
         margin: 5px 10px;
     }
+    #logo_head_pc {
+    width: 75px;
+}
 
 }

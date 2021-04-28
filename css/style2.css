@@ -15,6 +15,7 @@
 
 @media (max-width: 480px) {
 
+
     body,
     html {
         background-color: #F2E9E4;
@@ -137,9 +138,6 @@
         background: #F2E9E4;
     }
 
-    #logo_head {
-        width: 75px;
-    }
 }
 
 
@@ -148,9 +146,6 @@
 
 
 
-#logo_head {
-    width: 200px;
-}
 
 .logo {
     width: 5em;

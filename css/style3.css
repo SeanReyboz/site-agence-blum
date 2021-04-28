@@ -235,8 +235,14 @@ address li img {}
     animation-timing-function: ease;
 }
 
-@media screen and (max-width: 915px) {
+#logo_head {
+    width: 200px;
+}
 
+@media screen and (max-width: 915px) {
+    #logo_head_pc {
+    width: 75px;
+}
     .logo {
         display: flex;
     }
