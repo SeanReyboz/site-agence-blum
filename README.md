@@ -12,10 +12,14 @@ Repo du site de l'agence.
 - [x] Squelette page Oiseaux (Desktop)
 - [x] Squelette page Oiseaux (Mobile)
 - [x] Dropdown compétences
-- [ ] Animations
-- [ ] Responsive
 - [x] Les réalisations (slider fonctionnel)
 - [x] Les oiseaux (slider fonctionnel)
+- [x] Compression des images
+- [x] Responsive page Accueil
+- [ ] Responsive page Réalisations
+- [ ] Responsive page Oiseaux
+- [ ] Aligner les titres?? 
+- [ ] Animations
 - [ ] Accessibilité
 - [ ] Expérience utilisateur
 - [ ] Debug
