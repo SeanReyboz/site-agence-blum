@@ -163,20 +163,45 @@
             document.getElementById("Europe").style.display = "none";
             document.getElementById("Amerique_du_Nord").style.display = "none";
 
+
+
+
             document.getElementById("Benjamin").style.display = "none";
-            document.getElementById("Hugo").style.display = "none";
-            document.getElementById("Noe").style.display = "none";
-            document.getElementById("Sean").style.display = "none";
+            document.getElementById("Maxence_BB").style.display = "none";
+            document.getElementById("Nicolas").style.display = "none";
+
+            document.getElementById("Benjamin_desc").style.display = "none";
+            document.getElementById("Maxence_BB_desc").style.display = "none";
+            document.getElementById("Nicolas_desc").style.display = "none";
+
+
+
 
             document.getElementById("Corentin").style.display = "none";
             document.getElementById("Hugo").style.display = "none";
             document.getElementById("Noe").style.display = "none";
             document.getElementById("Sean").style.display = "none";
 
+            document.getElementById("Corentin_desc").style.display = "none";
+            document.getElementById("Hugo_desc").style.display = "none";
+            document.getElementById("Noe_desc").style.display = "none";
+            document.getElementById("Sean_desc").style.display = "none";
+
+
+
+
             document.getElementById("Elliott").style.display = "none";
             document.getElementById("Victoire").style.display = "none";
             document.getElementById("Lauriane_S").style.display = "none";
             document.getElementById("Maxence_F").style.display = "none";
+
+            document.getElementById("Elliott_desc").style.display = "none";
+            document.getElementById("Victoire_desc").style.display = "none";
+            document.getElementById("Lauriane_S_desc").style.display = "none";
+            document.getElementById("Maxence_F_desc").style.display = "none";
+
+
+
 
             if (membre == 1) {
                 document.getElementById("Lauriane_C").style.display = "block";
@@ -230,38 +255,78 @@
             document.getElementById("Europe").style.display = "none";
             document.getElementById("Amerique_du_Nord").style.display = "none";
 
+
+
             document.getElementById("Lauriane_C").style.display = "none";
             document.getElementById("Mathilde").style.display = "none";
             document.getElementById("Loriane_M").style.display = "none";
             document.getElementById("Valentin").style.display = "none";
+
+            document.getElementById("Lauriane_C_desc").style.display = "none";
+            document.getElementById("Mathilde_desc").style.display = "none";
+            document.getElementById("Loriane_M_desc").style.display = "none";
+            document.getElementById("Valentin_desc").style.display = "none";
+
+
+
+
 
             document.getElementById("Corentin").style.display = "none";
             document.getElementById("Hugo").style.display = "none";
             document.getElementById("Noe").style.display = "none";
             document.getElementById("Sean").style.display = "none";
 
+            document.getElementById("Corentin_desc").style.display = "none";
+            document.getElementById("Hugo_desc").style.display = "none";
+            document.getElementById("Noe_desc").style.display = "none";
+            document.getElementById("Sean_desc").style.display = "none";
+
+
+
+
             document.getElementById("Elliott").style.display = "none";
             document.getElementById("Victoire").style.display = "none";
             document.getElementById("Lauriane_S").style.display = "none";
             document.getElementById("Maxence_F").style.display = "none";
 
+            document.getElementById("Elliott_desc").style.display = "none";
+            document.getElementById("Victoire_desc").style.display = "none";
+            document.getElementById("Lauriane_S_desc").style.display = "none";
+            document.getElementById("Maxence_F_desc").style.display = "none";
+
+
+
+
+
             if (membre == 1) {
                 document.getElementById("Benjamin").style.display = "block";
                 document.getElementById("Nicolas").style.display = "none";
                 document.getElementById("Maxence_BB").style.display = "none";
+
+                document.getElementById("Benjamin_desc").style.display = "none";
+                document.getElementById("Maxence_BB_desc").style.display = "block";
+                document.getElementById("Nicolas_desc").style.display = "none";
             }
             if (membre == 2) {
                 document.getElementById("Benjamin").style.display = "none";
                 document.getElementById("Nicolas").style.display = "block";
                 document.getElementById("Maxence_BB").style.display = "none";
+
+                document.getElementById("Benjamin_desc").style.display = "none";
+                document.getElementById("Maxence_BB_desc").style.display = "block";
+                document.getElementById("Nicolas_desc").style.display = "none";
             }
             /* Cas ou le membre selectionne du groupe precedent etait le 4eme.
              * Afficher le 3eme membre dans tous les cas
              */
-            if ((membre == 3) || (membre == 4))  {
+            if ((membre == 3) || (membre == 4)) {
                 document.getElementById("Benjamin").style.display = "none";
                 document.getElementById("Nicolas").style.display = "none";
                 document.getElementById("Maxence_BB").style.display = "block";
+
+                document.getElementById("Benjamin_desc").style.display = "none";
+                document.getElementById("Maxence_BB_desc").style.display = "none";
+                document.getElementById("Nicolas_desc").style.display = "block";
             }
 
         }
@@ -278,14 +343,38 @@
             document.getElementById("Loriane_M").style.display = "none";
             document.getElementById("Valentin").style.display = "none";
 
+            document.getElementById("Lauriane_C_desc").style.display = "none";
+            document.getElementById("Mathilde_desc").style.display = "none";
+            document.getElementById("Loriane_M_desc").style.display = "none";
+            document.getElementById("Valentin_desc").style.display = "none";
+
+
+
+
+
             document.getElementById("Benjamin").style.display = "none";
             document.getElementById("Nicolas").style.display = "none";
             document.getElementById("Maxence_BB").style.display = "none";
+
+            document.getElementById("Benjamin_desc").style.display = "none";
+            document.getElementById("Maxence_BB_desc").style.display = "none";
+            document.getElementById("Nicolas_desc").style.display = "none";
+
+
+
 
             document.getElementById("Elliott").style.display = "none";
             document.getElementById("Victoire").style.display = "none";
             document.getElementById("Lauriane_S").style.display = "none";
             document.getElementById("Maxence_F").style.display = "none";
+
+            document.getElementById("Elliott_desc").style.display = "none";
+            document.getElementById("Victoire_desc").style.display = "none";
+            document.getElementById("Lauriane_S_desc").style.display = "none";
+            document.getElementById("Maxence_F_desc").style.display = "none";
+
+
+
 
 
             if (membre == 1) {
@@ -293,24 +382,44 @@
                 document.getElementById("Hugo").style.display = "none";
                 document.getElementById("Noe").style.display = "none";
                 document.getElementById("Sean").style.display = "none";
+
+                document.getElementById("Corentin_desc").style.display = "block";
+                document.getElementById("Hugo_desc").style.display = "none";
+                document.getElementById("Noe_desc").style.display = "none";
+                document.getElementById("Sean_desc").style.display = "none";
             }
             if (membre == 2) {
                 document.getElementById("Corentin").style.display = "none";
                 document.getElementById("Hugo").style.display = "block";
                 document.getElementById("Noe").style.display = "none";
                 document.getElementById("Sean").style.display = "none";
+
+                document.getElementById("Corentin_desc").style.display = "none";
+                document.getElementById("Hugo_desc").style.display = "block";
+                document.getElementById("Noe_desc").style.display = "none";
+                document.getElementById("Sean_desc").style.display = "none";
             }
             if (membre == 3) {
                 document.getElementById("Corentin").style.display = "none";
                 document.getElementById("Hugo").style.display = "none";
                 document.getElementById("Noe").style.display = "block";
                 document.getElementById("Sean").style.display = "none";
+
+                document.getElementById("Corentin_desc").style.display = "none";
+                document.getElementById("Hugo_desc").style.display = "none";
+                document.getElementById("Noe_desc").style.display = "block";
+                document.getElementById("Sean_desc").style.display = "none";
             }
             if (membre == 4) {
                 document.getElementById("Corentin").style.display = "none";
                 document.getElementById("Hugo").style.display = "none";
                 document.getElementById("Noe").style.display = "none";
                 document.getElementById("Sean").style.display = "block";
+
+                document.getElementById("Corentin_desc").style.display = "none";
+                document.getElementById("Hugo_desc").style.display = "none";
+                document.getElementById("Noe_desc").style.display = "none";
+                document.getElementById("Sean_desc").style.display = "block";
             }
 
         }
@@ -320,43 +429,87 @@
             document.getElementById("Europe").style.display = "none";
             document.getElementById("Amerique_du_Nord").style.display = "block";
 
+
+
             document.getElementById("Lauriane_C").style.display = "none";
             document.getElementById("Mathilde").style.display = "none";
             document.getElementById("Loriane_M").style.display = "none";
             document.getElementById("Valentin").style.display = "none";
 
+            document.getElementById("Lauriane_C_desc").style.display = "none";
+            document.getElementById("Mathilde_desc").style.display = "none";
+            document.getElementById("Loriane_M_desc").style.display = "none";
+            document.getElementById("Valentin_desc").style.display = "none";
+
+
+
+
             document.getElementById("Benjamin").style.display = "none";
             document.getElementById("Nicolas").style.display = "none";
             document.getElementById("Maxence_BB").style.display = "none";
-            
+
+            document.getElementById("Benjamin_desc").style.display = "none";
+            document.getElementById("Maxence_BB_desc").style.display = "none";
+            document.getElementById("Nicolas_desc").style.display = "none";
+
+
+
+
             document.getElementById("Corentin").style.display = "none";
             document.getElementById("Hugo").style.display = "none";
             document.getElementById("Noe").style.display = "none";
             document.getElementById("Sean").style.display = "none";
+
+            document.getElementById("Corentin_desc").style.display = "none";
+            document.getElementById("Hugo_desc").style.display = "none";
+            document.getElementById("Noe_desc").style.display = "none";
+            document.getElementById("Sean_desc").style.display = "none";
+
+
 
             if (membre == 1) {
                 document.getElementById("Elliott").style.display = "block";
                 document.getElementById("Victoire").style.display = "none";
                 document.getElementById("Lauriane_S").style.display = "none";
                 document.getElementById("Maxence_F").style.display = "none";
+
+                document.getElementById("Elliott_desc").style.display = "block";
+                document.getElementById("Victoire_desc").style.display = "none";
+                document.getElementById("Lauriane_S_desc").style.display = "none";
+                document.getElementById("Maxence_F_desc").style.display = "none";
             }
             if (membre == 2) {
                 document.getElementById("Elliott").style.display = "none";
                 document.getElementById("Victoire").style.display = "block";
                 document.getElementById("Lauriane_S").style.display = "none";
                 document.getElementById("Maxence_F").style.display = "none";
+
+                document.getElementById("Elliott_desc").style.display = "none";
+                document.getElementById("Victoire_desc").style.display = "block";
+                document.getElementById("Lauriane_S_desc").style.display = "none";
+                document.getElementById("Maxence_F_desc").style.display = "none";
             }
             if (membre == 3) {
                 document.getElementById("Elliott").style.display = "none";
                 document.getElementById("Victoire").style.display = "none";
                 document.getElementById("Lauriane_S").style.display = "block";
                 document.getElementById("Maxence_F").style.display = "none";
+
+                document.getElementById("Elliott_desc").style.display = "none";
+                document.getElementById("Victoire_desc").style.display = "none";
+                document.getElementById("Lauriane_S_desc").style.display = "block";
+                document.getElementById("Maxence_F_desc").style.display = "none";
             }
             if (membre == 4) {
                 document.getElementById("Elliott").style.display = "none";
                 document.getElementById("Victoire").style.display = "none";
                 document.getElementById("Lauriane_S").style.display = "none";
                 document.getElementById("Maxence_F").style.display = "block";
+
+                document.getElementById("Elliott_desc").style.display = "none";
+                document.getElementById("Victoire_desc").style.display = "none";
+                document.getElementById("Lauriane_S_desc").style.display = "none";
+                document.getElementById("Maxence_F_desc").style.display = "block";
             }
         }
     }
