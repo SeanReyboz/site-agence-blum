@@ -275,10 +275,7 @@ header a {
     margin-right: auto;
 }
 
-#oeuvre {
-    padding-left: 10%;
-    padding-right: 10%;
-}
+#oeuvre {}
 
 #photo-membre {}
 
@@ -335,6 +332,14 @@ header a {
 #Valentin_desc {
     display: none;
 }
+
+
+
+
+
+
+
+
 
 footer {
     color: #003459;
@@ -472,5 +477,49 @@ footer img {
 #Trap,
 #rea_Amerique_du_Nord,
 #rea_Amerique_du_Sud {
+    display: none;
+}
+
+#Mathilde_desc,
+#Loriane_M_desc,
+#Valentin_desc {
+    display: none;
+}
+
+/* Europe */
+
+#Corentin_desc,
+#Hugo_desc,
+#Noe_desc,
+#Sean_desc {
+    display: none;
+}
+
+/* Amerique du Sud */
+
+#Benjamin_desc,
+#Nicolas_desc,
+#Maxence_BB_desc {
+    display: none;
+}
+
+/* Amerique du Nord */
+
+#Maxence_F_desc,
+#Victoire_desc,
+#Elliott_desc,
+#Lauriane_S_desc {
+    display: none;
+}
+
+/* Realisations */
+
+#Paisible_desc {
+    display: block;
+}
+
+#Trap_desc,
+#rea_Amerique_du_Nord_desc,
+#rea_Amerique_du_Sud_desc {
     display: none;
 }
