@@ -137,7 +137,9 @@
         background: #F2E9E4;
     }
 
-
+    #logo_head {
+        width: 75px;
+    }
 }
 
 
@@ -146,8 +148,12 @@
 
 
 
+#logo_head {
+    width: 200px;
+}
 
 .logo {
+    width: 5em;
     display: none;
 }
 
@@ -205,6 +211,7 @@ header a {
 }
 
 #grostitre {
+    padding-left: 5%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2%;
@@ -435,6 +442,7 @@ footer img {
 /* Oceanie */
 
 #Lauriane_C {
+
     display: block;
 }
 

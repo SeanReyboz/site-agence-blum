@@ -33,7 +33,12 @@ body {
     align-items: center;
 }
 
+#logo_head {
+    width: 250px;
+}
+
 .sec-1__header .logo {
+
     margin: 0 0 150px 0;
 }
 
@@ -262,6 +267,10 @@ address li img {}
 }
 
 @media screen and (max-width: 915px) {
+
+    #logo_head {
+    width: 75px;
+}
 
     #content-graph {
         visibility: visible;

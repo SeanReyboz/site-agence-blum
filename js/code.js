@@ -483,7 +483,6 @@
                 document.getElementById("Victoire").style.display = "block";
                 document.getElementById("Lauriane_S").style.display = "none";
                 document.getElementById("Maxence_F").style.display = "none";
-
                 document.getElementById("Elliott_desc").style.display = "none";
                 document.getElementById("Victoire_desc").style.display = "block";
                 document.getElementById("Lauriane_S_desc").style.display = "none";
