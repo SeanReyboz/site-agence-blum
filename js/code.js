@@ -235,7 +235,10 @@
                 document.getElementById("Nicolas").style.display = "block";
                 document.getElementById("Maxence_BB").style.display = "none";
             }
-            if (membre == 3) {
+            /* Cas ou le membre selectionne du groupe precedent etait le 4eme.
+             * Afficher le 3eme membre dans tous les cas
+             */
+            if ((membre == 3) || (membre == 4))  {
                 document.getElementById("Benjamin").style.display = "none";
                 document.getElementById("Nicolas").style.display = "none";
                 document.getElementById("Maxence_BB").style.display = "block";
