@@ -1,0 +1,2 @@
+ErrorDocument 403 /site-agence-blum/err/403.html
+ErrorDocument 404 /site-agence-blum/err/404.html

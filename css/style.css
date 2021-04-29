@@ -272,9 +272,44 @@ address li img {}
     animation-fill-mode:both;
 }
 
+/*
+ * Style pages d'erreur  (404, 403, etc)
+ */
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 32px;
+}
 
+.rubik {
+    font-family: 'Rubik', sans-serif;
+    font-size: 54px;
+}
 
+.err h1 {
+    font-size: 46px;
+    font-weight: 850;
+    color: #007EA7;
+    margin-bottom: 24px;
+}
+
+.details_err { margin-bottom: 4rem; }
+
+.details_err p {
+    color: #007EA7;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 100%;
+    text-align: center;
+}
+
+.home a {
+    font-weight: 400;
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 915px) {
 
