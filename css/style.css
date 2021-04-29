@@ -241,6 +241,7 @@ address li img {}
     font-weight: 600;
     margin-bottom: auto;
     margin-top: auto;
+    cursor: pointer;
 }
 
 /* Animations  */
@@ -254,18 +255,26 @@ address li img {}
         font-size: 35px;
     }
 }
+@keyframes title-zoom-in-fin {
+    from {
+        font-size: 35px;
+    }
 
-.sec-1__header li:hover a {
-    animation-name: title-zoom-in;
-    animation-duration: 1s;
-    animation-timing-function: ease;
+    to {
+        font-size: 35px;
+    }
 }
 
 .sec-1__header li:hover a {
     animation-name: title-zoom-in;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: ease;
+    animation-fill-mode:both;
 }
+
+
+
+
 
 @media screen and (max-width: 915px) {
 
@@ -273,22 +282,7 @@ address li img {}
         width: 75px;
     }
 
-    #content-graph {
-        visibility: visible;
-        cursor: default;
-    }
-
-    #content-AV {
-        visibility: visible;
-        cursor: default;
-    }
-
-    #content-com {
-        visibility: visible;
-        cursor: default;
-    }
-
-    #content-prog {
+    #content-graph, #content-AV, #content-com, #content-prog {
         visibility: visible;
         cursor: default;
     }
