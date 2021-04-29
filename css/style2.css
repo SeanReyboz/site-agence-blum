@@ -207,17 +207,17 @@ header a {
 
 #grostitre {
     padding-left: 5%;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 2%;
     padding-bottom: 0%;
     display: flex;
+    margin: 2% auto;
 }
 
 #grostitre h1 {
     text-transform: uppercase;
     color: #003459;
     margin-bottom: 0px;
+    line-height: 32px;
 }
 
 #sec-2 {
@@ -264,11 +264,30 @@ header a {
     margin-right: auto;
 }
 
+/*
+ * Animations fleches au click
+ */
+@keyframes animation-fleche {
+    from {opacity: 1;}
+    to {opacity: 0.2;}
+}
+
+.boutonflecheG,
+.boutonflecheD,
+.boutonfleche-membreG,
+.boutonfleche-membreD {cursor: pointer;}
+
 .boutonflecheG {
     margin-left: auto;
     vertical-align: center;
 }
-
+.boutonflecheG:active,
+.boutonflecheD:active,
+.boutonfleche-membreG:active,
+.boutonfleche-membreD:active {
+    animation-name: animation-fleche;
+    animation-duration: .2s;
+}
 .boutonflecheD {
     vertical-align: center;
     transform: scaleX(-1);

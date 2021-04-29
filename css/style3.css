@@ -167,7 +167,7 @@ address ul {
 }
 
 address ul li {
-    margin: 0 30px;
+    margin: 0 15px;
     display: inline;
 }
 
@@ -214,25 +214,15 @@ address li img {}
 /* Animations  */
 
 @keyframes title-zoom-in {
-    from {
-        font-size: 30px;
-    }
-
-    to {
-        font-size: 35px;
-    }
+    from {font-size: 30px;}
+    to {font-size: 35px;}
 }
 
 .sec-1_header-pages li:hover a {
     animation-name: title-zoom-in;
     animation-duration: 1s;
     animation-timing-function: ease;
-}
-
-.sec-1_header-pages li:hover a {
-    animation-name: title-zoom-in;
-    animation-duration: 1s;
-    animation-timing-function: ease;
+    font-size: 35px;
 }
 
 #logo_head {
@@ -271,7 +261,6 @@ address li img {}
     .sec-3,
     .sec-3__main {
         height: auto;
-        max-width: 300px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -399,7 +388,7 @@ address li img {}
     footer {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: flex-end;
+        justify-content: space-between;
     }
 
     .logo-univ ul {
