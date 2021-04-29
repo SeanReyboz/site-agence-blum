@@ -20,14 +20,14 @@ Repo du site de l'agence.
 - [ ] Responsive page Oiseaux
 - [ ] Aligner les titres?? 
 - [ ] Animations
-- flèches onclick
-- virer animations des titres en responsive
-- barre de scroll personnalisée 
+- ~~flèches onclick~~
+- ~~virer animations des titres en responsive~~
+- ~~barre de scroll personnalisée~~
 - effet fade au changement d'image
-- after après hiver sur titres principaux 
+- ~~after après hover sur titres principaux~~ 
 - [ ] Accessibilité
 - modifier tailles des flèches version mobile
-- padding nos réalisations au lieu du line height
+- ~~padding nos réalisations au lieu du line height~~
 - [ ] Expérience utilisateur
 - [ ] Debug
 - [x] Favicon
