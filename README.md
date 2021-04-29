@@ -32,6 +32,6 @@ Repo du site de l'agence.
 - [ ] Debug
 - [x] Favicon
 - [ ] Déploiement
-- htaccess
-- 404
-- 403
+- ~~htaccess~~
+- ~~404~~
+- ~~403~~
