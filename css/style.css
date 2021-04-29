@@ -13,7 +13,13 @@ body {
     background-color: #007EA7;
 }
 
+/* Scrollbar personnalisee */
 
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: #f2e9e4;}
+/* Handle */
+::-webkit-scrollbar-thumb { background: #00a8e8; }
+::-webkit-scrollbar-thumb:hover {background: #007ea7; }
 
 .sec-1 {
     height: 775px;
@@ -244,25 +250,11 @@ address li img {}
     cursor: pointer;
 }
 
-/* Animations  */
+/* Animations hover titres  */
 
 @keyframes title-zoom-in {
-    from {
-        font-size: 30px;
-    }
-
-    to {
-        font-size: 35px;
-    }
-}
-@keyframes title-zoom-in-fin {
-    from {
-        font-size: 35px;
-    }
-
-    to {
-        font-size: 35px;
-    }
+    from {font-size: 30px;}
+    to {font-size: 35px;}
 }
 
 .sec-1__header li:hover a {
@@ -270,6 +262,7 @@ address li img {}
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode:both;
+    font-size: 35px;
 }
 
 /*
