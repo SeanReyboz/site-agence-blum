@@ -267,7 +267,7 @@ address li img {}
 
 .sec-1__header li:hover a {
     animation-name: title-zoom-in;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode:both;
 }
