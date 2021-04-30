@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scrollbar-color: #00a8e8 #f2e9e4; /* firefox */
 }
 
 html {
