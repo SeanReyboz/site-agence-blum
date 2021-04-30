@@ -284,7 +284,10 @@ address li img {}
     cursor: pointer;
 }
 
-
+#moins-button-graph {
+    width: 39px;
+    height: 39px;
+}
 
 #footer {
     text-align: center;
