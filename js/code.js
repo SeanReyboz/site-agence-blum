@@ -15,7 +15,7 @@
 
     function derouler_graph() {
 
-        document.getElementById("content-graph").style.display = "inline-block";
+        document.getElementById("content-graph").style.display = "flex";
 
         document.getElementById("content-AV").style.display = "none";
         document.getElementById("content-com").style.display = "none";
@@ -34,7 +34,7 @@
 
     function derouler_av() {
 
-        document.getElementById("content-AV").style.display = "inline-block";
+        document.getElementById("content-AV").style.display = "flex";
 
         document.getElementById("content-graph").style.display = "none";
         document.getElementById("content-com").style.display = "none";
@@ -53,7 +53,7 @@
 
     function derouler_com() {
 
-        document.getElementById("content-com").style.display = "inline-block";
+        document.getElementById("content-com").style.display = "flex";
 
         document.getElementById("content-graph").style.display = "none";
         document.getElementById("content-AV").style.display = "none";
@@ -72,7 +72,7 @@
 
     function derouler_prog() {
 
-        document.getElementById("content-prog").style.display = "inline-block";
+        document.getElementById("content-prog").style.display = "flex";
 
         document.getElementById("content-graph").style.display = "none";
         document.getElementById("content-AV").style.display = "none";
@@ -88,6 +88,27 @@
 
 
     }
+
+    function enrouler_graph() {
+        document.getElementById("plus-button-graph").style.display = "block";
+        document.getElementById("content-graph").style.display = "none";
+    }
+
+    function enrouler_av() {
+        document.getElementById("plus-button-av").style.display = "block";
+        document.getElementById("content-AV").style.display = "none";
+    }
+
+    function enrouler_com() {
+        document.getElementById("plus-button-com").style.display = "block";
+        document.getElementById("content-com").style.display = "none";
+    }
+
+    function enrouler_prog() {
+        document.getElementById("plus-button-prog").style.display = "block";
+        document.getElementById("content-prog").style.display = "none";
+    }
+
 
     function MenuResponsive() {
         var menuDeroulant = document.getElementById("TopNav");
@@ -216,6 +237,7 @@
             }
             if (membre == 2) {
                 document.getElementById("Lauriane_C").style.display = "none";
+
                 document.getElementById("Mathilde").style.display = "block";
                 document.getElementById("Loriane_M").style.display = "none";
                 document.getElementById("Valentin").style.display = "none";

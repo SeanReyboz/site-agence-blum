@@ -55,7 +55,10 @@ body {
     color: #007EA7;
     transition: all .3s ease-in-out;
 }
-
+.sec-1 a:active {
+animation-name: animation-nav;
+    animation-duration: .2s;
+}
 .sec-1 ul {
     display: flex;
 }

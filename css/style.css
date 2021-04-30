@@ -94,6 +94,11 @@ body {
     cursor: pointer;
 }
 
+.scroll-button a:active {
+    animation-name: animation-fleche;
+    animation-duration: .2s;
+}
+
 .sec-2 {
     height: 552px;
     background: #007EA7;
@@ -175,6 +180,10 @@ p {
     line-height: 35px;
     text-align: left;
     color: #00A8E8;
+}
+
+.sec-3__main li img {
+    cursor: pointer;
 }
 
 footer {
@@ -264,8 +273,18 @@ address li img {}
     font-weight: 600;
     margin-bottom: auto;
     margin-top: auto;
+    cursor: default;
+}
+
+#content-graph img,
+#content-AV img,
+#content-com img,
+#content-prog img {
+    margin-left: 0.5em;
     cursor: pointer;
 }
+
+
 
 #footer {
     text-align: center;
@@ -274,7 +293,7 @@ address li img {}
 #footer p {
     font-size: 1.5em;
     font-weight: bold;
-     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 #footer a {
@@ -330,6 +349,39 @@ address li img {}
     text-decoration: underline;
 }
 
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animation-fleche {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.2;
+    }
+}
+
+@keyframes animation-nav {
+
+    from {
+        color: #007EA7;
+    }
+
+    to {
+        color: #003459;
+    }
+}
+
 @media screen and (max-width: 915px) {
     .sec-1 a {
         font-size: 20px;
@@ -341,7 +393,7 @@ address li img {}
     }
 
     .sec-1 a:active {
-
+        animation-name: animation-nav;
         font-size: 20px;
     }
 

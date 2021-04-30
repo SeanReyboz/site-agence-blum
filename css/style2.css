@@ -163,6 +163,7 @@ body {
     scroll-behavior: smooth;
     margin: 0px;
 }
+
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -179,6 +180,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #003459;
 }
+
 #sec-1 {
     background: #F2E9E4;
 }
@@ -282,14 +284,6 @@ header a {
 /*
  * Animations fleches au click
  */
-@keyframes animation-fleche {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0.2;
-    }
 }
 
 .boutonflecheG,
@@ -309,7 +303,7 @@ header a {
 .boutonfleche-membreG:active,
 .boutonfleche-membreD:active {
     animation-name: animation-fleche;
-    animation-duration: .2s;
+animation-duration: .2s;
 }
 
 .boutonflecheD {
@@ -450,13 +444,13 @@ footer img {
     font-size: 1em;
     color: #007ea7;
     font-weight: bold;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 
 }
 
 #footer a {
     font-family: 'Rubik', sans-serif;
-    
+
     line-height: 166%;
     color: #007ea7;
 }
@@ -496,12 +490,14 @@ footer img {
 
 #Océanie {
     display: flex;
+    animation: fadein 1s forwards;
 }
 
 #Amerique_du_Sud,
 #Europe,
 #Amerique_du_Nord {
     display: none;
+    animation: fadein 1s forwards;
 }
 
 /* Oceanie */
@@ -509,12 +505,14 @@ footer img {
 #Lauriane_C {
 
     display: block;
+    animation: fadein 1s forwards;
 }
 
 #Mathilde,
 #Loriane_M,
 #Valentin {
     display: none;
+    animation: fadein 1s forwards;
 }
 
 /* Europe */
@@ -524,6 +522,7 @@ footer img {
 #Noe,
 #Sean {
     display: none;
+    animation: fadein 1s forwards;
 }
 
 /* Amerique du Sud */
@@ -532,6 +531,7 @@ footer img {
 #Nicolas,
 #Maxence_BB {
     display: none;
+    animation: fadein 1s forwards;
 }
 
 /* Amerique du Nord */
@@ -541,23 +541,27 @@ footer img {
 #Elliott,
 #Lauriane_S {
     display: none;
+    animation: fadein 1s forwards;
 }
 
 /* Realisations */
 
 #Paisible {
+    animation: fadein 1s forwards;
     display: block;
 }
 
 #Trap,
 #rea_Amerique_du_Nord,
 #rea_Amerique_du_Sud {
+    animation: fadein 1s forwards;
     display: none;
 }
 
 #Mathilde_desc,
 #Loriane_M_desc,
 #Valentin_desc {
+    animation: fadein 1s forwards;
     display: none;
 }
 
@@ -567,6 +571,7 @@ footer img {
 #Hugo_desc,
 #Noe_desc,
 #Sean_desc {
+    animation: fadein 1s forwards;
     display: none;
 }
 
@@ -575,6 +580,7 @@ footer img {
 #Benjamin_desc,
 #Nicolas_desc,
 #Maxence_BB_desc {
+    animation: fadein 1s forwards;
     display: none;
 }
 
@@ -584,17 +590,53 @@ footer img {
 #Victoire_desc,
 #Elliott_desc,
 #Lauriane_S_desc {
+    animation: fadein 1s forwards;
     display: none;
 }
 
 /* Realisations */
 
 #Paisible_desc {
+    animation: fadein 1s forwards;
     display: block;
 }
 
 #Trap_desc,
 #rea_Amerique_du_Nord_desc,
 #rea_Amerique_du_Sud_desc {
+    animation: fadein 1s forwards;
     display: none;
+}
+
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animation-fleche {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.2;
+    }
+}
+
+@keyframes animation-nav {
+
+    from {
+        color: #007EA7;
+    }
+
+    to {
+        color: #003459;
+    }
 }
