@@ -268,19 +268,27 @@ header a {
  * Animations fleches au click
  */
 @keyframes animation-fleche {
-    from {opacity: 1;}
-    to {opacity: 0.2;}
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.2;
+    }
 }
 
 .boutonflecheG,
 .boutonflecheD,
 .boutonfleche-membreG,
-.boutonfleche-membreD {cursor: pointer;}
+.boutonfleche-membreD {
+    cursor: pointer;
+}
 
 .boutonflecheG {
     margin-left: auto;
     vertical-align: center;
 }
+
 .boutonflecheG:active,
 .boutonflecheD:active,
 .boutonfleche-membreG:active,
@@ -288,6 +296,7 @@ header a {
     animation-name: animation-fleche;
     animation-duration: .2s;
 }
+
 .boutonflecheD {
     vertical-align: center;
     transform: scaleX(-1);

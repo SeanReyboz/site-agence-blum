@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scrollbar-color: #00a8e8 #f2e9e4; /* firefox */
+    scrollbar-color: #00a8e8 #f2e9e4;
+    /* firefox */
 }
 
 html {
@@ -215,10 +216,21 @@ address li img {}
 
 /* Animations  */
 
-.sec-1_header-pages li:hover a {font-size: 35px;}
+.sec-1_header-pages li:hover a {
+    font-size: 35px;
+}
 
 #logo_head {
     width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+    .sec-1 a {
+        font-size: 20px;
+    }
+    .boutonfleche-membreD img, .boutonfleche-membreG img {
+        max-width: 35px;
+    }
 }
 
 @media screen and (max-width: 915px) {

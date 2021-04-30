@@ -342,7 +342,9 @@ address li img {}
         line-height: 60px;
         text-align: center;
     }
-
+    .sec-1 a {
+        font-size: 20px;
+    }
     .sec-1__header .logo,
     .sec-1 nav,
     .sec-1 li,
