@@ -51,6 +51,7 @@ body {
     font-size: 30px;
     line-height: 33px;
     color: #007EA7;
+    transition: all .3s ease-in-out;
 }
 
 .sec-1 ul {
@@ -213,17 +214,7 @@ address li img {}
 
 /* Animations  */
 
-@keyframes title-zoom-in {
-    from {font-size: 30px;}
-    to {font-size: 35px;}
-}
-
-.sec-1_header-pages li:hover a {
-    animation-name: title-zoom-in;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    font-size: 35px;
-}
+.sec-1_header-pages li:hover a {font-size: 35px;}
 
 #logo_head {
     width: 200px;

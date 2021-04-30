@@ -62,6 +62,7 @@ body {
     font-size: 30px;
     line-height: 33px;
     color: #007EA7;
+    transition: all .3s ease-in-out;
 }
 
 .sec-1 ul {
@@ -70,7 +71,10 @@ body {
 
 .sec-1 li {
     margin: auto 75px auto;
+}
 
+.sec-1 li:hover a {
+    font-size: 35px;
 }
 
 .scroll-button {
@@ -248,21 +252,6 @@ address li img {}
     margin-bottom: auto;
     margin-top: auto;
     cursor: pointer;
-}
-
-/* Animations hover titres  */
-
-@keyframes title-zoom-in {
-    from {font-size: 30px;}
-    to {font-size: 35px;}
-}
-
-.sec-1__header li:hover a {
-    animation-name: title-zoom-in;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode:both;
-    font-size: 35px;
 }
 
 /*
