@@ -228,12 +228,15 @@ address li img {}
     .sec-1 a {
         font-size: 20px;
     }
-    .boutonfleche-membreD img, .boutonfleche-membreG img {
+
+    .boutonfleche-membreD img,
+    .boutonfleche-membreG img {
         max-width: 35px;
     }
 }
 
 @media screen and (max-width: 915px) {
+
     #logo_head_pc {
         width: 75px;
     }
@@ -381,6 +384,7 @@ address li img {}
 
     .dropdown-content a {
         float: none;
+        padding: 12px 16px;
     }
 
     .dropdown-content p {
