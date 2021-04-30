@@ -295,6 +295,22 @@ address li img {}
 }
 
 @media screen and (max-width: 915px) {
+        .sec-1 a {
+        font-size: 20px;
+        transition: none;
+    }
+
+    .sec-1 a:active {
+
+        font-size: 20px;
+    }
+    .sec-1 a:focus {
+
+        font-size: 20px;
+    }
+    .sec-1 li:hover a {
+        font-size: 20px;
+    }
 
     #logo_head {
         width: 75px;
