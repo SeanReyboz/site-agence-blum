@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scrollbar-color: #00a8e8 #f2e9e4; /* firefox */
+    scrollbar-color: #00a8e8 #f2e9e4;
+    /* firefox */
 }
 
 html {
@@ -16,11 +17,22 @@ body {
 
 /* Scrollbar personnalisee */
 
-::-webkit-scrollbar { width: 12px; }
-::-webkit-scrollbar-track { background: #f2e9e4;}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f2e9e4;
+}
+
 /* Handle */
-::-webkit-scrollbar-thumb { background: #00a8e8; }
-::-webkit-scrollbar-thumb:hover {background: #007ea7; }
+::-webkit-scrollbar-thumb {
+    background: #003459;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #003459;
+}
 
 .sec-1 {
     height: 775px;
@@ -255,6 +267,28 @@ address li img {}
     cursor: pointer;
 }
 
+#footer {
+    text-align: center;
+}
+
+#footer p {
+    font-size: 1.5em;
+    font-weight: bold;
+     margin-bottom: 20px;
+}
+
+#footer a {
+    font-family: 'Rubik', sans-serif;
+    line-height: 166%;
+    color: #F2E9E4;
+}
+
+#footer a:hover {
+    font-family: 'Rubik', sans-serif;
+    line-height: 166%;
+    color: #003459;
+}
+
 /*
  * Style pages d'erreur  (404, 403, etc)
  */
@@ -279,7 +313,9 @@ address li img {}
     margin-bottom: 24px;
 }
 
-.details_err { margin-bottom: 4rem; }
+.details_err {
+    margin-bottom: 4rem;
+}
 
 .details_err p {
     color: #007EA7;
@@ -295,19 +331,25 @@ address li img {}
 }
 
 @media screen and (max-width: 915px) {
-        .sec-1 a {
+    .sec-1 a {
         font-size: 20px;
         transition: none;
+    }
+
+    #footer p {
+        font-size: 0.6em;
     }
 
     .sec-1 a:active {
 
         font-size: 20px;
     }
+
     .sec-1 a:focus {
 
         font-size: 20px;
     }
+
     .sec-1 li:hover a {
         font-size: 20px;
     }
@@ -316,7 +358,10 @@ address li img {}
         width: 75px;
     }
 
-    #content-graph, #content-AV, #content-com, #content-prog {
+    #content-graph,
+    #content-AV,
+    #content-com,
+    #content-prog {
         visibility: visible;
         cursor: default;
     }
@@ -358,9 +403,11 @@ address li img {}
         line-height: 60px;
         text-align: center;
     }
+
     .sec-1 a {
         font-size: 20px;
     }
+
     .sec-1__header .logo,
     .sec-1 nav,
     .sec-1 li,

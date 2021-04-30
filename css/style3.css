@@ -234,12 +234,14 @@ address li img {}
 
         font-size: 20px;
     }
+
     .sec-1 a:focus {
 
         font-size: 20px;
     }
+
     .sec-1_header-pages li:hover a {
-       font-size: 20px;
+        font-size: 20px;
     }
 
     .boutonfleche-membreD img,
@@ -259,6 +261,10 @@ address li img {}
 }
 
 @media screen and (max-width: 915px) {
+
+    #footer p {
+        font-size: 0.6em;
+    }
 
     #logo_head_pc {
         width: 75px;
