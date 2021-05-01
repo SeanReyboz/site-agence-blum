@@ -1,0 +1,67 @@
+/*
+ *      Feuille de style page mentions legales
+ *
+ *  Annule la plupart des proprietes de la section 2 et 3
+ *  de la feuille de style principale de la page d'accueil
+ */
+
+#editeur a,
+#credits a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+#editeur .scroll-button {
+    margin-top: 5%;
+}
+
+#editeur p,
+#credits p {
+    line-height: 100%;
+    text-align: center;
+}
+
+.sec-2,
+.sec-2__container {
+    height: auto;
+}
+
+.sec-2__container {
+    padding-bottom: 5%;
+}
+
+.sec-3 {
+    height: auto;
+}
+
+.sec-3__main {
+    margin: 0 auto;
+    max-width: 1163px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    padding: 0 6px 5% 6px;
+}
+
+.sec-3__main h2 {
+    font-size: 2rem;
+    font-weight: 850;
+    color: #007ea7;
+    line-height: 90px;
+}
+
+.sec-3__main p {
+    color: #007ea7;
+}
+
+@media screen and (max-width: 915px) {
+
+    .sec-3__main h2 {
+        font-size: 1.8rem;
+        line-height: 76px;
+    }
+
+    .sec-3 p {
+        font-size: 1.1rem;
+    }
+}
