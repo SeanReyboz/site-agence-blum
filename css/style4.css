@@ -5,6 +5,11 @@
  *  de la feuille de style principale de la page d'accueil
  */
 
+#editeur a:hover,
+#credits a:hover {
+    color: #003459;
+}
+
 #editeur a,
 #credits a {
     text-decoration: underline;
@@ -26,6 +31,10 @@
     height: auto;
 }
 
+.sec-2 main {
+    margin-top: 43px;
+}
+
 .sec-2__container {
     padding-bottom: 5%;
 }
@@ -37,7 +46,8 @@
 .sec-3__main {
     margin: 0 auto;
     max-width: 1163px;
-    display: flex;
+    display: block;
+    text-align: center;
     flex-flow: wrap column;
     align-items: center;
     padding: 0 6px 5% 6px;
@@ -52,6 +62,11 @@
 
 .sec-3__main p {
     color: #007ea7;
+}
+
+.sec-3__header h1 {
+    padding-top: 43px;
+    margin: 0 0 0 2px;
 }
 
 @media screen and (max-width: 915px) {

@@ -304,9 +304,7 @@ header a {
 .boutonfleche-membreD:active {
     animation-name: animation-fleche;
 animation-duration: .2s;
-}
-
-.boutonflecheD {
+}.boutonflecheD {
     vertical-align: center;
     transform: scaleX(-1);
     margin-right: auto;

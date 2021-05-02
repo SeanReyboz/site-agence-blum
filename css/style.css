@@ -310,7 +310,10 @@ address li img {}
     line-height: 166%;
     color: #003459;
 }
-
+footer img:hover {
+    opacity: 0.75;
+    transform: scale(1.05, 1.05);
+}
 /*
  * Style pages d'erreur  (404, 403, etc)
  */

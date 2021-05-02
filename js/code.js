@@ -130,7 +130,6 @@
                 membre = 4;
             }
         }
-        console.log(membre);
     }
 
     function incrementation_membre() {
@@ -148,7 +147,6 @@
             }
         }
 
-        console.log(membre);
     }
 
     function derementation_groupe() {
@@ -157,7 +155,6 @@
         } else {
             groupe = 4;
         }
-        console.log("groupe numéro" + groupe);
     }
 
     function incrementation_groupe() {
@@ -166,7 +163,6 @@
         } else {
             groupe = 1;
         }
-        console.log("groupe numéro" + groupe);
     }
 
     function slide_membre() {
