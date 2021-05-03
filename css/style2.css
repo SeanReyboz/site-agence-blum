@@ -144,8 +144,9 @@
 
 
 
-img {
+#image-membre-centre img {
     border-radius: 0px;
+    border: 0em solid #003459;
 }
 
 

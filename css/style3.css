@@ -25,7 +25,9 @@ body {
     /* height: 775px; */
     height: auto;
 }
-
+#rea_Amerique_du_Nord img {
+    width: 100%;
+}
 .sec-1_header-pages {
     display: flex;
     flex-flow: wrap column;
