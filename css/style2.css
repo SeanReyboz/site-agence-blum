@@ -144,7 +144,9 @@
 
 
 
-
+img {
+    border-radius: 0px;
+}
 
 
 .logo {
@@ -303,8 +305,10 @@ header a {
 .boutonfleche-membreG:active,
 .boutonfleche-membreD:active {
     animation-name: animation-fleche;
-animation-duration: .2s;
-}.boutonflecheD {
+    animation-duration: .2s;
+}
+
+.boutonflecheD {
     vertical-align: center;
     transform: scaleX(-1);
     margin-right: auto;

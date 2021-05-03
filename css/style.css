@@ -294,7 +294,7 @@ address li img {}
 }
 
 #footer p {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     padding-bottom: 20px;
     margin-bottom: 0;
@@ -312,10 +312,12 @@ address li img {}
     line-height: 166%;
     color: #003459;
 }
+
 footer img:hover {
     opacity: 0.75;
     transform: scale(1.05, 1.05);
 }
+
 /*
  * Style pages d'erreur  (404, 403, etc)
  */
@@ -358,9 +360,10 @@ footer img:hover {
     color: #f8b03b;
     padding-bottom: 10px;
 }
+
 .home a:hover {
     opacity: 0.9;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
     color: #f8b03b;
 }
 
