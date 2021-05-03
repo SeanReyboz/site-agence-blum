@@ -125,7 +125,10 @@ p {
     color: #003459;
 }
 
-#intro-rea p {}
+#intro-rea p {
+    text-align: center;
+    font-size: 1.25em;
+}
 
 #mot-important {
     color: #f8b03b;
