@@ -300,7 +300,7 @@ address li img {}
         display: flex;
     }
 
-    #image-membre-centre {
+    #image-membre-centre,#image-rea-centre {
         width: 100%;
     }
 

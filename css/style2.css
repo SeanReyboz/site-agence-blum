@@ -145,8 +145,8 @@
 
 
 #image-membre-centre img {
-    border-radius: 0px;
-    border: 0em solid #003459;
+    border-radius: 10px;
+    border: 0.1em solid #f2e9e4;
 }
 
 
@@ -480,7 +480,7 @@ footer img {
     margin-bottom: auto;
 }
 
-#image-membre-centre {
+#image-membre-centre,#image-rea-centre {
     margin-left: auto;
     margin-right: auto;
     height: auto;
