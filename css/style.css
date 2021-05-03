@@ -354,7 +354,14 @@ footer img:hover {
 
 .home a {
     font-weight: 400;
-    text-decoration: underline;
+    text-decoration: none;
+    color: #f8b03b;
+    padding-bottom: 10px;
+}
+.home a:hover {
+    opacity: 0.9;
+    transform: scale(1.1,1.1);
+    color: #f8b03b;
 }
 
 
