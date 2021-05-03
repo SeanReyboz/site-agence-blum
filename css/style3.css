@@ -334,7 +334,8 @@ address li img {}
     .sec-1 ul,
     .navbar .dropdown-content,
     .scroll-button,
-    .sec-3__main ul:last-child {
+    .sec-3__main ul:last-child,
+    .resp-invisible {
         display: none;
     }
 
