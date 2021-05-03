@@ -25,7 +25,7 @@ body {
     /* height: 775px; */
     height: auto;
 }
-#rea_Amerique_du_Nord img {
+#rea_Amerique_du_Nord img,#rea_Amerique_du_Sud img {
     width: 100%;
 }
 .sec-1_header-pages {
