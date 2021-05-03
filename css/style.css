@@ -274,6 +274,7 @@ address li img {}
     margin-bottom: auto;
     margin-top: auto;
     cursor: default;
+    font-size: 0.6em;
 }
 
 #content-graph img,
@@ -284,7 +285,7 @@ address li img {}
     cursor: pointer;
 }
 
-#moins-button-graph {
+#moins-button-graph,#moins-button-av, #moins-button-com, #moins-button-prog{
     width: 39px;
     height: 39px;
 }
@@ -293,6 +294,10 @@ address li img {}
     text-align: center;
 }
 
+#mot-important {
+    color: #f8b03b;
+    font-weight: bold;
+}
 #footer p {
     font-size: 1em;
     font-weight: bold;
