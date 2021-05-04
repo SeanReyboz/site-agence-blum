@@ -170,6 +170,16 @@ p {
     color: #00A8E8;
 }
 
+#image-rea-centre a img {
+    transition: all .3s ease-in-out;
+}
+
+#image-rea-centre a:hover img {
+    filter: brightness(105%)
+            drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.5));
+    transform: scale(106%);
+}
+
 footer {
     max-height: 228px;
 }
@@ -303,7 +313,8 @@ address li img {}
         display: flex;
     }
 
-    #image-membre-centre,#image-rea-centre {
+    #image-membre-centre,
+    #image-rea-centre {
         width: 100%;
     }
 
