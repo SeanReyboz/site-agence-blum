@@ -299,6 +299,7 @@ header a {
 .boutonflecheG {
     margin-left: auto;
     vertical-align: center;
+    cursor: pointer;
 }
 
 .boutonflecheG:active,
@@ -310,6 +311,7 @@ header a {
 }
 
 .boutonflecheD {
+    cursor: pointer;
     vertical-align: center;
     transform: scaleX(-1);
     margin-right: auto;
@@ -478,6 +480,7 @@ footer img {
 .boutonfleche-membreD {
     margin-top: 25%;
     margin-bottom: auto;
+    cursor: pointer;
 }
 
 #image-membre-centre,#image-rea-centre {
