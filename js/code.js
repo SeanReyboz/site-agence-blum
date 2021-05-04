@@ -321,8 +321,8 @@
                 document.getElementById("Nicolas").style.display = "none";
                 document.getElementById("Maxence_BB").style.display = "none";
 
-                document.getElementById("Benjamin_desc").style.display = "none";
-                document.getElementById("Maxence_BB_desc").style.display = "block";
+                document.getElementById("Benjamin_desc").style.display = "block";
+                document.getElementById("Maxence_BB_desc").style.display = "none";
                 document.getElementById("Nicolas_desc").style.display = "none";
             }
             if (membre == 2) {
@@ -331,8 +331,8 @@
                 document.getElementById("Maxence_BB").style.display = "none";
 
                 document.getElementById("Benjamin_desc").style.display = "none";
-                document.getElementById("Maxence_BB_desc").style.display = "block";
-                document.getElementById("Nicolas_desc").style.display = "none";
+                document.getElementById("Maxence_BB_desc").style.display = "none";
+                document.getElementById("Nicolas_desc").style.display = "block";
             }
             /* Cas ou le membre selectionne du groupe precedent etait le 4eme.
              * Afficher le 3eme membre dans tous les cas
@@ -343,8 +343,8 @@
                 document.getElementById("Maxence_BB").style.display = "block";
 
                 document.getElementById("Benjamin_desc").style.display = "none";
-                document.getElementById("Maxence_BB_desc").style.display = "none";
-                document.getElementById("Nicolas_desc").style.display = "block";
+                document.getElementById("Maxence_BB_desc").style.display = "block";
+                document.getElementById("Nicolas_desc").style.display = "none";
             }
 
         }
