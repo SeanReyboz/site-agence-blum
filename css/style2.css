@@ -317,6 +317,20 @@ header a {
     margin-right: auto;
 }
 
+.boutonflecheD:hover img,
+.boutonflecheG:hover img,
+.boutonfleche-membreG:hover img,
+.boutonfleche-membreD:hover img {
+    filter: brightness(110%));
+    transform: scale(110%);
+}
+.boutonflecheD img,
+.boutonflecheG img,
+.boutonfleche-membreG img,
+.boutonfleche-membreD img {
+    transition: all .3s ease-in-out;
+}
+
 #oeuvre {}
 
 #photo-membre {}
