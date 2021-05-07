@@ -25,9 +25,12 @@ body {
     /* height: 775px; */
     height: auto;
 }
-#rea_Amerique_du_Nord img,#rea_Amerique_du_Sud img {
+
+#rea_Amerique_du_Nord img,
+#rea_Amerique_du_Sud img {
     width: 100%;
 }
+
 .sec-1_header-pages {
     display: flex;
     flex-flow: wrap column;
@@ -175,8 +178,7 @@ p {
 }
 
 #image-rea-centre a:hover img {
-    filter: brightness(105%)
-            drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.5));
+    filter: brightness(105%) drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.5));
     transform: scale(106%);
 }
 
@@ -238,6 +240,17 @@ address li img {}
     display: none;
     min-height: 50px;
     z-index: 5;
+}
+
+video {
+    border-radius: 10px;
+    border: 2px solid #f2e9e4;
+    display: block;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
 }
 
 .dropdown-content p {
